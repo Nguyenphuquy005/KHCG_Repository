@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <input type="number"  id="num" oninput="exportC(this.value)" >
+   <p id="xuat" ></p>
+   <script>
+     function exportC(number) {
+         number = parseFloat(number);
+         document.getElementById("xuat").innerText = (number - 32) / 1.8 ;
+
+     }
+   </script>
+</body>
+</html>

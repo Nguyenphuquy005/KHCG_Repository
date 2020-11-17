@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab18ddb4-a59c-4650-8a27-b758fbf3935b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/ropository/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/ropository/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/ropository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/ropository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/java/com/kienden005/case_study/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/css/cssStyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/css/csslogin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/font/Flaticon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/font/Flaticon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/license/license.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/flaticon/license/license.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/ionicons/fonts/ionicons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/fonts/open-iconic/open-iconic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/img/furama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/img/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/img/join.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/static/js/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/aaaa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/contract/addnewcontract.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/contract/addnewcontract.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/contract/addnewcontractdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/contract/addnewcontractdetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/addnewcustomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/addnewcustomer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/contract.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/deletecustomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/deletecustomer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/deletecustomer1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/editcustomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/customer/editcustomer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/addservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/addservice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/deleteservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/deleteservice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/editservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/editservice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java_web_castudy/java_web_case_study/src/main/resources/templates/service/service.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1XhRZQpclpApb9mYZvsIxd0jnL9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProductManagement" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.50" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="customer_model:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/customer_model_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="customer_model:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab18ddb4-a59c-4650-8a27-b758fbf3935b" name="Default Changelist" comment="" />
+      <created>1581496394407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581496394407</updated>
+      <workItem from="1581643213790" duration="225000" />
+      <workItem from="1581691941618" duration="177000" />
+      <workItem from="1581692157483" duration="71000" />
+      <workItem from="1583682036709" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1583682053126">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583682053126" />
+    <state x="65" y="0" key="new project wizard" timestamp="1581643434558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581643434558" />
+  </component>
+</project>

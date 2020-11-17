@@ -1,0 +1,14 @@
+{
+  "todo": [
+    {
+      "msv": "sv2",
+      "name": "Le Van Kien",
+      "group": "Nhóm 3",
+      "dt": "Khoa Học",
+      "teacher": "Lê Văn Giáo",
+      "email": "nguyenvan@gmail.com",
+      "phone": "09012345678",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<style>
+    #body{
+
+        background-image: url("https://images.triumphmotorcycles.co.uk/media-library/images/central%20marketing%20team/home%20page%20rotations/street-triple-rs-hpr-1920x1080-my20-launch-11148039-optimised.jpg");
+        width: 100%;
+        height: 50em;
+    }
+    img{
+        width: 10em;
+        height: 7em;
+        padding: 0;
+    }
+
+    .table{
+        background:#0d0d0d;
+        color: black;
+    }
+    .table td,th{
+      color: white;
+padding: 0    }
+</style>
+<body>
+<div id="body" class="row">
+    <div style="background-color: #0d0d0d" class="col-sm-5">
+    <table class="table">
+        <thead>
+        <tr><th scope="col">ID</th>
+            <th scope="col">Image</th>
+            <th scope="col">Infomation</th>
+
+
+
+        </tr>
+        </thead>
+        <tbbody>
+            <tr  th:each="row: ${listmoto}">
+                <th style="width: 10%" scope="row" th:text="${row.idMoto}"></th>
+                <td style="width: 35%"><img th:src="${row.img}" alt=""></td>
+                <td >
+                    <div><h5 th:text="${row.nameMoto}"></h5></div>
+                    <div class="row"><h5>weight: &nbsp  </h5><h5 th:text="${row.weight}"></h5><h5> Kg</h5></div>
+                    <div class="row"><h5>House Power: &nbsp  </h5><h5 th:text="${row.hourePower}"></h5><h5> Hp</h5></div>
+                </td>
+                <td><a th:href="@{/edit/{id}/motobike(id=${row.idMoto})}">Edit</a></td>
+                <td><a th:href="@{/delete/{id}/motobike(id=${row.idMoto})}">Delete</a></td>
+            </tr>
+        </tbbody>
+    </table>
+    <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-6">
+    <a th:href="@{'/adminjob'(page=${listmoto.number - 1},name=${name})}" th:if="${listmoto.hasPrevious()}">Back</a>
+    <span th:text="${listmoto.number + 1}"></span>
+    /<span th:text="${listmoto.totalPages}"></span>
+    <a th:href="@{'/adminjob'(page=${listmoto.number + 1},name=${name})}" th:if="${listmoto.hasNext()}">Next</a></div>
+     <div class="col-sm-2">
+    <a th:href="@{/addnewmoto}" style="right: 0" type="submit" class="btn btn-danger">Add New MotoBike</a>
+     </div></div>
+    </div>
+
+</div>
+</body>
+</html>

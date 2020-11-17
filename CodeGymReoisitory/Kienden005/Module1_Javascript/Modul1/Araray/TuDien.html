@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TuDien</title>
+</head>
+<body>
+    <input placeholder="English" id="en"  >
+    <button onclick="TranForm()" >TranForm</button>
+    <input placeholder="Vietmammes" id="vn" >
+  <script>
+    var en=["hello","play","study"];
+    var vn=["Xin Chào","chơi","học"];
+    var nhap = document.getElementById("en");
+   function TranForm() {
+     for (var i= 0 ; i<en.length ; i++) {
+       if(en[i]=== nhap.value){
+         document.getElementById("vn").value  = vn[i];
+       }
+
+     }
+   }
+  </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  // var n = parseInt(prompt("N: "));
+  // var tong = 0;
+  // for (var i =1 ; i<=n;i++){
+  //    tong += 1/i ;
+  // }
+  // alert(tong);
+
+  // bai4
+  // var n = parseInt(prompt("N: "));
+  // var tong = 15;
+  //
+  // for (var i = 1; i <= n; i++) {
+  //     tong +=   Math.pow(-1,i)/i;
+  // }
+  // alert(tong);
+
+  //bai5 S= 1+1/3+1/5+1/(2n-1)
+  // var n = parseInt(prompt("N: "));
+  // var tong = 0;
+  // for (var i = 1; i <= n; i++) {
+  //   var tich = 1;
+  //   for (var j = (2 * i - 1); j > 0; j--) {
+  //
+  //     tich *= j;
+  //   }
+  //   tong += 1 / tich;
+  // }
+  // alert(tong);
+
+  // bai6 n!!
+  // var n = parseInt(prompt("N: "));
+  // var tichSoChan = 1;
+  // var tichSole = 1;
+  // if (n % 2 === 0) {
+  //   for (var i = 2; i <= n; i += 2) {
+  //     tichSoChan = tichSoChan * i;
+  //   }
+  //   alert("Tích Số Chẵn " + tichSoChan);
+  // }
+  // else if (n % 2 !== 0) {
+  //   for (var j = 1; j <= n; j += 2) {
+  //     tichSole =tichSole * j;
+  //   }
+  //   alert("Tích Số Lẻ " + tichSole);
+  // }
+
+  // bai7 tính tổng và tích các số nguyên dương m cho trước
+  //   var n = 2345 ;
+  // var sum =0 ;
+  // var tich = 1 ;
+  //  do{
+  //    sum+= n%10;
+  //    tich*= n%10;
+  //   n = parseInt(n/10);
+  //  }while ( n%10 !== 0);
+  //  alert("Tổng: "+  sum +"\n"+"tích: "+ tich);
+
+  //bai8 tim boi chung uoc chung lon nhat
+  // var a= 9;b=8;
+  // for (var i=1; i<=a*b ;i++ ){
+  //   if( i%a ===0 && i%b===0){
+  //     alert("BCNN: " +i + "\n" + "UCLN: " + i/(a*b) );
+  //   }
+  // }
+
+  // bai9
+  //  var chuoi = "1234";
+  //  var result = chuoi.split("");
+  //  result.reverse();
+  // alert(result);
+
+  // var xuat = "";
+  // var thu = chuoi.charAt(3) ;
+  // var thu = chuoi.length ;
+  //   for ( var i = chuoi.length  ; i >0 ; i--) {
+  //    xuat = xuat.concat(chuoi.charAt(i-1));
+  //   }
+  //  alert(xuat);
+  //   var arr = chuoi.split("");
+  //   var fist = 0 ;
+  //   var last = arr.length-1 ;
+  //  while (fist<last) {
+  //        var b = arr[fist];
+  //        arr[fist]= arr[last];
+  //        arr[last] =b ;
+  //        fist ++ ;
+  //        last --;
+  //   }
+  // alert(arr.join());
+
+  // bai 9b
+  // var chuoi = "AkekeABNkkdf";
+  //  var arr = chuoi.split("");
+  //   for (var i=0;i<arr.length;i++){
+  //     if(arr[i] === arr[i].toLocaleUpperCase()){
+  //       arr[i] = arr[i].toLocaleLowerCase()
+  //     }else if (arr[i] === arr[i].toLocaleLowerCase() ) {
+  //     arr[i] =  arr[i].toLocaleUpperCase();
+  //     }
+  //   }
+  //alert(arr);
+
+  // bài 10 ;
+    var chuoi  = 'KienDen';
+    var arr = chuoi.split("");
+    var result = "";
+    for (var i=0;i<arr.length;i++){
+        result += arr[i] +"\n";
+    }
+    alert(arr.length);
+    var result ="";
+    alert(arr);
+
+    for (var i=0 ; i<arr.length;i++){
+      var count = 0;
+
+      for (var j=1;j<arr.length;j++){
+
+        if(arr[i]===arr[j]){
+          count +=1 ;
+         
+        }
+      }
+      result += arr[i] + "   SLXH  " + count + "\n" ;
+    }
+    alert(result);
+
+  // bai 11
+  // var importN = prompt("Bạn muốn nhập bao nhiêu số :");
+  // var listNumber = [];
+  // var reverList = [];
+  //   var sumOdd = 0 ;
+  //   var AdressK = "";
+  // for (var i=0 ; i<importN;i++){
+  //   listNumber.push(prompt("Nhập số thứ : " + (i+1) ));
+  // }
+  // document.write( "Array :   " + listNumber + "<br>");
+  // for (var j = 0 ; j < listNumber.length ; j++){
+  //   if (listNumber[j]%2 !== 0 ){
+  //        sumOdd +=  parseInt( listNumber[j]) ;
+  //   }
+  // }
+  // var importk = prompt("Nhập phần tử  k: ");
+  // for (var k=0 ;k<listNumber.length;k++){
+  //   var countk = 0;
+  //       if(listNumber[k]===importk){
+  //         countk ++;
+  //         if (countk ===1) {
+  //           AdressK = importk+ " xuất hiện lần đầu tiên ở vị trí " + k ;
+  //         }
+  //       }
+  // }
+  // document.write("Tổng các số lẻ "+sumOdd + "<br>");
+  // document.write(AdressK +"<br>");
+  //   //var temp ;
+  // for (var t=0;t<listNumber.length;t++){
+  //
+  //   for (var y=t+1;y<listNumber.length;y++){
+  //     if(listNumber[t]>listNumber[y]){
+  //     var  temp =listNumber[t];
+  //      listNumber[t]= listNumber[y];
+  //      listNumber[y]=temp ;
+  //     }
+  //   }
+  // }
+  //  document.write(listNumber +"<br>" );
+  // var insertp = parseInt(prompt("Nhập p: "));
+  //   for (var p=0;p<listNumber.length;p++) {
+  //     if(listNumber[p]<=insertp && listNumber[p+1]>=insertp){
+  //       listNumber.push(listNumber[p],insertp);
+  //     }
+  //   }
+  // document.write(listNumber +"<br>" );
+
+  var n=4 ;
+  var tong=0 ;
+  for (var i=n;i>0;i=i-2){
+      tong+=i;
+  }
+alert(tong);
+
+</script>
+</body>
+</html>

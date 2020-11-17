@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id ="h1"  onclick="bh1()" > Hình 1 </p>
+<script>
+  function bh1(){
+    var hd1 = document.getElementById("h1") ;
+    if (hd1.innerText === "Hình 1"){
+      document.getElementById("h1").innerText = "Hình 2";
+    }
+    else if(hd1.innerText === "Hình 2"){
+      document.getElementById("h1").innerText = "Hình 3";
+    }
+    else if(hd1.innerText === "Hình 3"){
+      document.getElementById("h1").innerText = "Hình 1";
+    }
+  }
+</script>
+</body>
+</html>

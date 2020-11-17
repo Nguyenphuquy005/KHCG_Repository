@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            width:6em;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Houes Power</td>
+        <td>Weight</td>
+        <td>ID Categorite</td>
+        <td>img</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="row: ${listmoto}">
+        <td th:text="${row.idMoto}"></td>
+        <td th:text="${row.nameMoto}"></td>
+        <td th:text="${row.weight}"></td>
+        <td th:text="${row.hourePower}"></td>
+        <td th:text="${row.hourePower}"></td>
+        <td><img th:src="${row.img}" alt=""></td>
+    </tr>
+    </tbody>
+</table>
+<a th:href="@{'/adminAction.html'(page=${listmoto.number - 1},name=${name})}" th:if="${listmoto.hasPrevious()}">Back</a>
+<span th:text="${listmoto.number + 1}"></span>
+/<span th:text="${listmoto.totalPages}"></span>
+<a th:href="@{'/adminAction.html'(page=${listmoto.number + 1},name=${name})}" th:if="${listmoto.hasNext()}">Next</a>
+</body>
+</html>

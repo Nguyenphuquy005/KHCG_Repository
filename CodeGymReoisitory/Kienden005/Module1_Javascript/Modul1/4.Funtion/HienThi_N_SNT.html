@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  var nhap = prompt("Nhập:  ");
+  SNT(nhap);
+
+  function SNT(snt) {
+    for (var i = 0; i < snt; i++) {
+      var kt = true;
+      if (i < 2) {
+        kt = false ;
+      } else {
+        for (var j = 2; j < i - 1; j++) {
+          if (i % j === 0) {
+            kt = false ;
+          }
+          }
+        }
+      if(kt === true){
+        document.write(i);
+      }
+    }
+  }
+
+</script>
+</body>
+</html>

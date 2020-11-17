@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <style>
+        .bg {
+            background-color: #eaeaea;
+            height: 100%;
+            width: 100%;
+            padding: 60px 10px;
+            overflow: auto;
+            position: fixed;
+        }
+        .container {
+            background-color: white;
+            width: 590px;
+            /*padding: 15px;*/
+            text-align: left;
+            padding: 0;
+        }
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        .formm {
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-control {
+            width: 100%;
+            font-style: italic;
+            background: none;
+            border: 0;
+            border-bottom: 1px solid;
+            border-radius: 0;
+            padding-left: 0;
+            border-color: #dbe0e2;
+            box-shadow: none;
+            margin-bottom: 15px;
+        }
+    </style>
+    <script>
+        $( function() {
+            $('#show').click(function () {
+                $('#checktitle').text("Title: " + $('#title').val()) ;
+                $('#checkname').text("Full Name: " + $('#first_name').val()+" "+ $('#last_name').val()) ;
+                $('#checkposition').text("Position: " + $('#position').val()) ;
+                $('#checkconpany').text("Company: " + $('#company').val()) ;
+                $('#checkbussiness').text("Bussiness Arena: " + $('#business_arena').val()) ;
+                $('#checkemployee').text("Employee: " + $('#employees').val()) ;
+                $('#checkstreet').text("Street Nr: " + $('#street_nr').val()) ;
+                $('#checkadditional').text("Additional: " + $('#additional_info').val()) ;
+                $('#checkplace').text("Place: " + $('#place').val()) ;
+                $('#checkcode').text("Code: " + $('#code+').val()) ;
+                $('#checkphonenumber').text("Phone Number: " + $('#phone_number').val()) ;
+                $('#checkemail').text("Your Email: " + $('#email').val()) ;
+                $( "#dialog" ).dialog();
+            })
+
+        } );
+
+    </script>
+</head>
+<body>
+<div   id="dialog" style="display: none">
+    <pre id="checktitle"></pre>
+    <pre id="checkname"></pre>
+    <pre id="checkposition"></pre>
+    <pre id="checkconpany"></pre>
+    <pre id="checkbussiness"></pre>
+    <pre id="checkemployee"></pre>
+    <pre id="checkstreet"></pre>
+    <pre id="checkadditional"></pre>
+    <pre id="checkplace"></pre>
+    <pre id="checkcode"></pre>
+    <pre id="checkphonenumber"></pre>
+    <pre id="checkemail"></pre>
+</div>
+<div class="bg">
+    <div class="container">
+        <div class="div1" style="width: 50%; float: right; padding: 5px">
+            <form action="" method="POST" role="form" class="formm">
+                <legend >Contact Details</legend>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="street_nr" placeholder="Street + Nr">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="additional_info" placeholder="Additional Information">
+                </div>
+                <div class="form-group" style="display: inline; padding-right: 10px">
+                    <input type="text" class="form-control" id="zip_code" placeholder="Zip Code" style="width: 30%; display: inline">
+                </div>
+                <select name="" class="form-control" id="place" style="width: 65%; display: inline">
+                    <option value="">Place</option>
+                    <option value="">HaNoi</option>
+                    <option value="">Kuala Lumpur</option>
+                    <option value="">Jakarta</option>
+                </select>
+                <select name="" class="form-control" id="country">
+                    <option value="">Country</option>
+                    <option value="">VietNam</option>
+                    <option value="">Myanmar</option>
+                    <option value="">ThaiLan</option>
+                </select>
+                <div class="form-group" style="display: inline; padding-right: 10px">
+                    <input type="text" class="form-control" id="code+" placeholder="Code+" style="width: 30%; display: inline">
+                </div>
+                <div class="form-group" style="display: inline">
+                    <input type="text" class="form-control" id="phone_number" placeholder="Phone Number" style="width: 65%; display: inline">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="" id="input" value="" style="margin-top: 20px" >
+                        <p style="margin-top: 15px"> I do accept the <a>Terms and Conditions</a> of your sites.</p>
+                    </label>
+                </div>
+                <button type="button" class="btn btn-primary" id="show" style="margin: 10px;">Register Badges</button>
+            </form>
+        </div>
+        <div class="div1" style="width: 50%; float: left; padding: 5px">
+            <form action="" method="POST" role="form" class="formm">
+                <legend >General Information</legend>
+                <select name=""  class="form-control" required="required" id="title">
+                    <option value="">Title</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <div class="form-group" style="display: inline">
+                    <input type="text" class="form-control" id="first_name" placeholder="First Name" style="width: 45%; display: inline">
+                </div>
+                <div class="form-group" style="display: inline">
+                    <input type="text" class="form-control" id="last_name" placeholder="Last Name" style="width: 45%; display: inline">
+                </div>
+                <select name=""  class="form-control" id="position" required="required">
+                    <option value="">Position</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="company" placeholder="Company">
+                </div>
+                <div class="form-group" style="display: inline">
+                    <input type="text" class="form-control" id="business_arena" placeholder="Business Arena" style="width: 55%; display: inline">
+                </div>
+                <select name=""  class="form-control" id="employees" required="required" style="width: 40%; display: inline">
+                    <option value="">Employees</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

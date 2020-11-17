@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // var sdt = "012365478";
+  // alert(sdt.substr(0,3));
+  chieck();
+ function chieck() {
+     var sdt= prompt("Nhap SDT: ");
+     // if(sdt.substr(0,3)==="012"){
+     //   alert("Mobifone");
+     // }else {alert("Viettell");}
+     // chieck();
+   switch (sdt.substr(0,3)) {
+     case "012" :
+       alert("mobifone: ");
+       break;
+     case "033" :
+       alert("Viettel");
+       break;
+     default :
+       alert("chết mẹ đi bạn: ");
+   }
+   chieck();
+ }
+</script>
+</body>
+</html>

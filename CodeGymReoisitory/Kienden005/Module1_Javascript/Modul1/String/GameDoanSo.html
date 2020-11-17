@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var arr = [1,3,5,9,7];
+  menu3();
+  function menu3() {
+    var i = 0 ;
+    while ( i < 3){
+            i++;
+            var nhap = prompt("Nhap " +i );
+            for (var j=0;j<arr.length;j++){
+              if ( parseInt(nhap)===arr[j]){
+                alert("Lucky");
+                break;
+
+              }
+            }
+    }
+  }
+</script>
+</body>
+</html>

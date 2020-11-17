@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            /*justify-content: space-around;*/
+        }
+        ul li{
+            position: relative;
+        }
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+
+        }
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #555;
+            color: white;}
+         ul .sub{
+             display: none;
+             position: absolute;
+             text-align: center;
+         }
+        ul :hover  .sub{
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="default.asp">Home</a>
+        <ul class="sub">
+            <li><a href="default.asp">1</a></li>
+            <li><a href="news.asp">2</a></li>
+            <li><a href="contact.asp">3</a></li>
+            <li><a href="about.asp">4</a></li>
+        </ul>
+    </li>
+    <li><a href="news.asp">News</a>
+        <ul class="sub">
+            <li><a href="default.asp">1</a></li>
+            <li><a href="news.asp">2</a></li>
+            <li><a href="contact.asp">3</a></li>
+            <li><a href="about.asp">4</a></li>
+        </ul>
+    </li>
+    <li><a href="contact.asp">Contact</a>
+        <ul class="sub">
+            <li><a href="default.asp">1</a></li>
+            <li><a href="news.asp">2</a></li>
+            <li><a href="contact.asp">3</a></li>
+            <li><a href="about.asp">4</a></li>
+        </ul></li>
+    <li><a href="about.asp">About</a>
+        <ul class="sub">
+            <li><a href="default.asp">1</a></li>
+            <li><a href="news.asp">2</a></li>
+            <li><a href="contact.asp">3</a></li>
+            <li><a href="about.asp">4</a></li>
+        </ul></li>
+</ul>
+</body>
+</html>

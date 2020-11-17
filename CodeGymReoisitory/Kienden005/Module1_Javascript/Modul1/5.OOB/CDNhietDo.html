@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function CdND(c) {
+     this.c = c ;
+     // this.DoF = function () {
+     //     return c*1.8 +32 ;
+     // }
+     // this.DoKenvvi = function () {
+     //   return c + 273.1;
+     // }
+     this.full1 = function () {
+            return this.c +" C = " + (c*1.8 +32) + "\n" + this.c +" C = " + (c + 273.1) + "\n" ;
+     }
+  }
+  var CD = new CdND(25);
+  var xuat = CD.full1() ;
+  alert(xuat);
+</script>
+</body>
+</html>

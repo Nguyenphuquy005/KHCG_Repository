@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+var lis = [];
+var colum =parseInt( prompt("số dòng: "));
+var row = parseInt(prompt("Số cột: "));
+for (var i =0 ;i<colum;i++){
+  lis.push([]);
+  for (var j = 0;j<row;j++){
+    lis[i][j] = prompt(" colum "  + (i+1)+" row " + (j+1) );
+  }
+}
+document.write( "Arr 2D : "  + lis.join("__") +"<br>" );
+var caculus = 1 ;
+for (var i =0;i<row;i++){
+  if(lis[0][i]%3 === 0){
+caculus *= parseInt(lis[0][i]);
+  }
+}
+document.write("tổng các số của dòng đầu tiên chia hết cho 3 là  "+ caculus + "<br>");
+var lis1 = [];
+for (i=0;i<row;i++){
+  lis1.push(lis[0][i]);
+}
+document.write("Mảng 1 chiều X[i]:  " + lis1 +"<br>");
+lis1.splice(0,1);
+document.write("xóa pt đầu tiên của Mảng 1 chiều X[i]:  " + lis1);
+</script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CaseStudy</title>
+</head>
+<body>
+<script>
+    var name = ("  Nguyễn Phú Quý ");
+    var IdCard = ("201748002");
+    var Briday = ("25/06/1996");
+    var Email = ("nguyenphuquyracer@gmail.com");
+    var Address = (" Quảng Nam");
+    var Custom = ("Villa");
+    var Sale = ("10");
+    var NumberScrem = (" 3");
+    var DayNunber = (" 3");
+
+    var price ;
+    if(Custom==="Villa"){
+        price = 500 ;
+    }else if(Custom==="House"){
+        price = 300;
+    }else if(Custom==="Room"){
+        price = 100 ;
+    }
+    var Bill;
+    Bill = price * DayNunber * (1-Sale/100);
+    var nguon = prompt("1.Show Information Customer." + "\n" + "2.Edit Information Customer."
+        + "\n" + "3.\tShow the amount to be paid after discount");
+    if (nguon === "1") {
+        alert("1.Name: "+name+ "\n" +"2.TdCard: "+IdCard+"\n" +"3.Brithday: "+Briday+"\n"+"4.Email: "+Email+"\n"+"5.Address: "+Address
+            +"\n" +'6.Custom: '+Custom+"\n" +"7.Sale: "+Sale+"\n" +"8.NumberScrem: "+NumberScrem+"\n" +"9.DayNumber: "+DayNunber+
+            "\n"+ Bill  ) }
+     else if (nguon === "2") {
+        var p2 = prompt("1.Name: " + name + "\n" + "2.TdCard: " + IdCard + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + Address
+            + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+            "\n"  + Bill);
+        switch (p2) {
+            case "1" :
+                var p21 = prompt("EnterName: ");
+                alert("1.Name: " + p21 + "\n" + "2.TdCard: " + IdCard + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill);
+                break;
+            case "2" :
+                var p22 = prompt("Enter IDcard:  ");
+                alert("1.Name: " + name + "\n" + "2.TdCard: " + p22 + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: "  + Email + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill);
+                break ;
+            case "3" :
+                var p23 = prompt("Enter Briday:  ");
+                let Bill3 ;
+                let currentYear = new Date().getFullYear();
+                let birthday = new Date(p23).getFullYear();
+                let ageCustomer = currentYear - birthday;
+                   if(ageCustomer > 30 && Address === "Đà Nẵng" ){
+                       Bill3 =Bill - 2;
+                     }else if (ageCustomer > 20 && ageCustomer < 30 && Address === "Đà Nẵng"){
+                       Bill3 = Bill -1 ;
+                   } else  (Bill3 = Bill);
+                alert("1.Name: " + name + "\n" + "2.TdCard: " + p22 + "\n" + "3.Brithday: " + ageCustomer + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill);
+                break ;
+            case "4" :
+                var p24 = prompt("Enter Email:  ");
+                alert("1.Name: " + name + "\n" + "2.TdCard: " + p22 + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + p24 + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill);
+                break ;
+            case "5" :
+                var p25 = prompt("Enter Address: ");
+                var Bill5;
+              if (p25 === "Đà Nẵng"){
+                  Bill5 = Bill - 20 ;
+              }else if (p25==="Huế"){
+                  Bill5 = Bill -20 ;
+              }else if(p25==="Quảng Nam"){
+                  Bill5 = Bill - 5 ;
+              }else {Bill5 = Bill}
+                alert("1.Name: " + p21 + "\n" + "2.TdCard: " + IdCard + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + p25
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill5);
+                break;
+            case "6" :
+                var p26 = prompt("Enter Custom: ");
+                var price ;
+                if(p26==="Villa"){
+                    price = 500 ;
+                }else if(p26==="House"){
+                    price = 300;
+                }else if(p26==="Room"){
+                    price = 100 ;
+                }
+                var Bill1;
+                Bill1 = price * DayNunber * (1-Sale/100);
+                // var  Bill9;
+                // if(Bill9=== "7"){
+                //
+                // }
+                alert("1.Name: " + p21 + "\n" + "2.TdCard: " + IdCard + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + p26 + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill1);
+                break;
+            case "7" :
+                var p27 = prompt("Enter Sale: ");
+                var price ;
+                if(p26==="Villa"){
+                    price = 500 ;
+                }else if(p26==="House"){
+                    price = 300;
+                }else if(p26==="Room"){
+                    price = 100 ;
+                }
+                var Bill6;
+                Bill6 = price * DayNunber * (1- p27/100);
+                alert("1.Name: " + p21 + "\n" + "2.TdCard: " + IdCard + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + p27 + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill6);
+                break;
+            case "8" :
+                var p28 = prompt("Enter NumberScreem: ");
+                alert("1.Name: " + p21 + "\n" + "2.TdCard: " + IdCard + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " +  p28+ "\n" + "9.DayNumber: " + DayNunber +
+                    "\n" + Bill);
+                break;
+            case "9" :
+                var p29 = prompt("Enter DayNumber: ");
+                var price ;
+                if(p26==="Villa"){
+                    price = 500 ;
+                }else if(p26==="House"){
+                    price = 300;
+                }else if(p26==="Room"){
+                    price = 100 ;
+                }
+                var Bill1;
+                Bill1 = price * p29 * (1-Sale/100);
+                var Bill12;
+                if (p29 === "7"){
+                    Bill12 = Bill1 - 20 ;
+                }else if ( p29 > 5 && p29 < 7 ) {
+                    Bill12 = Bill1 - 20 ;
+                } else if (p29 > 2 && p29 < 4){
+                    Bill12 =Bill1 -10 ;
+                }else {Bill12 = Bill1}
+                alert("1.Name: " + p21 + "\n" + "2.TdCard: " + IdCard + "\n" + "3.Brithday: " + Briday + "\n" + "4.Email: " + Email + "\n" + "5.Address: " + Address
+                    + "\n" + '6.Custom: ' + Custom + "\n" + "7.Sale: " + Sale + "\n" + "8.NumberScrem: " + NumberScrem + "\n" + "9.DayNumber: " + p29 +
+                    "\n" + Bill12);
+                break;
+        }
+    } else if (nguon === "3"){
+         alert("exit");
+    }
+
+</script>
+</body>
+</html>

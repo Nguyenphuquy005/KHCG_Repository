@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var name = prompt("Name: ");
+    var stn = name.toString();
+
+    var ren = [stn[0].toLocaleUpperCase()];
+
+
+    for (var i = 1; i < stn.length; i++) {
+        if (stn[i - 1] === (" ")) {
+            ren += stn[i].toLocaleUpperCase();
+            continue;
+        }
+        if (stn[i - 1] === " " && stn[i] === " ") {
+            ren += stn.splice(stn[i - 1], stn[i]);
+        }
+
+        ren += stn[i].toLocaleLowerCase();
+    }
+    var c = " " ;
+    for (var i=0 ; i<ren.length;i++){
+        if (ren[i] === " " ){
+            continue;
+        }
+        if (ren[i].toLocaleUpperCase()=== ren[i]){
+            c+= " " + ren[i];
+            continue ;
+        }
+        c+=ren[i];
+    }
+    var idcard;
+    do {
+        idcard = prompt("Enter Idcard: ");
+    } while (!checkIDcard(idcard));
+
+    function checkIDcard(id) {
+
+
+        if (id.length !== 10) {
+            return false;
+        }
+        if (isNaN(id.split("id[5]").join(" "))) {
+            return false;
+        }
+        for (var i = 0; i < id.length; i++) {
+            if (id[i] !== "0" && id[i] !== "1" && id[i] !== "2" && id[i] !== "3" && id[i] !== "4" &&
+                id[i] !== "5" && id[i] !== "6" && id[i] !== "7" && id[i] !== "8" && id[i] !== "9") {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
+    var birthday;
+    do {
+        birthday = prompt("Enter birthday customer(DD/MM/YYYY)");
+
+    } while (!bri2(birthday));
+
+    function bri2(birthday) {
+        var date = parseInt((birthday[0] + birthday[1]));
+        var month = parseInt((birthday[3] + birthday[4]));
+        if (birthday[2] !== "/"
+            || birthday[5] !== "/"
+            || birthday.length !== 10) {
+            return false;
+        }
+        if (isNaN(birthday.split("/").join(""))) {
+            return false;
+        }
+        if (birthday[0] === "0" && birthday[1] === "0") {
+            return false;
+        }
+        if (month > 12 || month < 1) {
+            return false;
+        }
+        if (date < 0 || date > 31) {
+            return false;
+        }
+        return true;
+        // var date = parseInt((bri3[0] + bri3[1]));
+        // var month = parseInt((bri3[3] + bri3[4]));
+        //
+        // if (bri3[2] !== "/"
+        // || bri3[5] !== "/"
+        // || bri3.length !== 10) {
+        //     return false ;
+        // }
+        // if (isNaN(bri3.split("/").join(" "))) {
+        //     return false;
+        // }
+        // if (bri3[0] === "0" && bri3[1] === "0") {
+        //     return false;
+        // }
+        // if (date < 0 || date > 31) {
+        //     return false;
+        // }
+        // if (month < 1 || month > 12) {
+        //     return false;
+        // }
+        // return true;
+    }
+    do{
+        var email = prompt(" Nhập Email: ");
+    }while (!cheickEmail(email));
+
+    function cheickEmail(e) {
+        if (e[0] === "@") {
+            return false;
+        }
+        for (var i = 1; i < e.length; i++) {
+            if (e[i] === "@") {
+                for (var j = 2; j < i; j++) {
+                    if (e[j] === "@") {
+                        return false;
+                    }
+                }
+            }
+        }
+        for (var i = 0; i < e.length; i++) {
+            if (e[i] === "^" || e[i] === " ") {
+                return false;
+            }
+        }
+        for (var i = 0; i < e.length; i++) {
+            //  var isCham = false ;
+            if ( e.indexOf(".") === -1 ) {
+                return  false ;
+            }
+
+        }
+        if ( e.indexOf("@") === -1 ) {
+            return  false ;
+        }
+
+        return true;
+    }
+    
+    
+    var Address = prompt("Address: ");
+    var Custom = prompt("Custom: ");
+    do{
+        var Sale = prompt("Sale: ");
+    }while (!checkNumberScreem(Sale));
+
+    do {
+        var NumberScrem = prompt("NumberScrem: ");
+    } while (!checkNumberScreem(NumberScrem));
+    function checkNumberScreem(id) {
+
+        if (isNaN(id.split("id[5]").join(" "))) {
+            return false;
+        }
+        for (var i = 0; i < id.length; i++) {
+            if (id[i] !== "0" && id[i] !== "1" && id[i] !== "2" && id[i] !== "3" && id[i] !== "4" &&
+                id[i] !== "5" && id[i] !== "6" && id[i] !== "7" && id[i] !== "8" && id[i] !== "9") {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    do {
+        var DayNunber = prompt("Daynumber");
+    }while (!checkNumberScreem(DayNunber));
+
+
+
+    var price;
+    if (Custom === "Villa") {
+        price = 500;
+    } else if (Custom === "House") {
+        price = 300;
+    } else if (Custom === "Rooms") {
+        price = 100;
+    }
+    var Bill;
+    Bill = price * DayNunber * (1 - Sale / 100);
+    alert("Name: " + c + "\n" + "TdCard: " + idcard + "\n" + "Brithday: " + birthday + "\n" + "email: " + email + "\n" + "Address: " + Address
+        + "\n" + 'Custom: ' + Custom + "\n" + "Sale: " + Sale + "\n" + "NumberScrem: " + NumberScrem + "\n" + "DayNumber: " + DayNunber
+        + "\n" + Bill);
+</script>
+</body>
+</html>

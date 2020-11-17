@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<h1 style="padding-left:12em ;padding-bottom: 1em ;padding-top: 1em ;background-color: saddlebrown">List Products</h1>
+<div style="display:  flex">
+<form th:action="@{/customer/create}" ><button  type="submit" class="btn btn-secondary btn-lg">Add new Product</button></form>
+<form style="padding-left: 32em" th:action="@{/}" class="form-inline">
+    <div class="form-group mx-sm-3 mb-2">
+        <input type="text" class="form-control" name="name" placeholder="">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Search</button>
+</form>
+</div>
+
+
+<table class="table" border="1px">
+ <thead>
+
+ <tr>
+   <td>Id</td>
+     <td>Name</td>
+     <td>Adress</td>
+ </tr>
+ </thead>
+    <tbody>
+    <tr th:each="row: ${customer}">
+       <td th:text="${row.id}"></td>
+       <td th:text="${row.name}"></td>
+       <td th:text="${row.typeProduct}"></td>
+
+       <td ><a th:href="@{/customer/{id}/edit(id=${row.id})}">Edit</a></td>
+       <td ><a th:href="@{/customer/{id}/delete(id=${row.id})}">Delete</a></td>
+
+    </tr>
+
+    </tbody>
+</table>
+<a th:href="@{'/'(page=${customer.number - 1},name=${name})}" th:if="${customer.hasPrevious()}">Previous</a>
+<span th:text="${customer.number + 1}"></span>
+/<span th:text="${customer.totalPages}"></span>
+<a th:href="@{'/'(page=${customer.number + 1},name=${name})}" th:if="${customer.hasNext()}">Next</a>
+</body>
+</html>

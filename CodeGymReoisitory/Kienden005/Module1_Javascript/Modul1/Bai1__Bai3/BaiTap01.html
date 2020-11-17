@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>bài tập</title>
+</head>
+<body>
+<script>
+  // for(var i = 1 ; i<100 ; i++ ){
+  //   document.write(i+" ");
+  // }
+  // var nhiet = prompt("Nhập nhiệt độ hiện tại: ");
+  // if ( nhiet > 100 ){
+  //   document.write("giảm nhiệt độ: ");
+  // }else if (nhiet <=20){
+  //   document.write("tăng nhiệt độ");
+  // } else {
+  //   document.write("Nhiệt dộ ổn");
+  // }
+  // 3. dãy Fibaccani
+  // var tong = 0 ;
+  //   for(var i= 0 ; i<=30 ; i++){
+  //     if(i%7 === 0 ){
+  //       tong += i ;
+  //     }
+  //  }
+  //   document.write("Tổng các số 1=>30%7=0 là     "+ tong);
+  // for (var i =1 ;i<=100 ; i++){
+  //   if (i %3===0){
+  //     document.write( i+ "_"+'Fizz'+'<br>');
+  //   } else if(i%5===0){
+  //     document.write(i+"_"+"Puzz" +"<br>");
+  //   }else if(i%3===0 && i%5===0){
+  //     document.write(i+"_" +"FizzPuzz"+"<br>");
+  //   }else {
+  //     document.write(i+"_" + "Chết đi"+"<br>");
+  //   }
+  // }
+  var arr = [1,6,5,7,8,9];
+ //  var min = arr[0] ;
+ // var  arr1=[];
+ //  for (var  i=0 ; i<arr.length;i++){
+ //        if (min > arr[i]){
+ //        }
+ //    arr1.push(arr[i]);
+ //  }
+ //  alert(arr1)
+  for(let i=0;i<arr.length-1;){
+    if(arr[i]>arr[i+1]){
+      let tmp=arr[i];
+      arr[i]=arr[i+1];
+      arr[i+1]=tmp;
+    }else{
+      i++;
+    }
+  }
+  console.log(arr);
+</script>
+</body>
+</html>

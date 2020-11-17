@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id ="in" placeholder="listphone">
+<button onclick="add()" >ADD</button>
+<input style="display: none;" id="edit" placeholder="edeit" >
+<button onclick="addedit()" >ADD</button>
+<table id="drwa"  ></table>
+<script>
+  var list = [] ;
+  var input = document.getElementById("in") ;
+  var tabledrwa = document.getElementById("drwa");
+  var editor = document.getElementById("edit") ;
+  function add() {
+     list.push(input.value);
+     input.value = " " ;
+    showphone();
+  }
+  function showphone() {
+    var drwa = "<tr>" + "<th>Display</th>" + "</tr>" ;
+    for (var i=0 ; i< list.length ; i++){
+      drwa += "<tr>"+
+        "<td>" + list[i] +"</td>"  + "<td>" +
+        "<td><button onclick='deletephone(" + i + ")'>Delete</button></td>" +
+      "<td><button onclick='edit(" + i + ")'>Edit</button></td>"
+        + "</tr>" ;
+    }
+    tabledrwa.innerHTML = drwa ;
+  }
+function deletephone(e) {
+     list.splice(e,1);
+    showphone();
+}
+ function edit(e) {
+   editor.style.display = 'block'  ;
+   editor.value=list[e];
+  showphone();
+ }
+ function addedit() {
+
+  }
+</script>
+</body>
+</html>

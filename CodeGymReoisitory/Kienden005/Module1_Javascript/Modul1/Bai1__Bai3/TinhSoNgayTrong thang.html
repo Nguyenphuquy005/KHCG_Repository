@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đếm số ngày trong năm</title>
+</head>
+<body>
+<fieldset>
+  <input id="nhap" type="text" > <button onclick="dem()" >search</button>
+  <div id="xuat" >s</div>
+</fieldset>
+<script>
+  var nhap = document.getElementById("nhap");
+  var xuat = document.getElementById("xuat");
+ function dem() {
+   switch (nhap.value) {
+     case "1" :{
+
+       document.getElementById("xuat").innerHTML = "tahng 1 co 1 ngay" ;
+       break;}
+     case "2" :{document.getElementById("xuat").innerHTML = " tháng 2 có 2 ngày" ;
+       break ;}
+     default :{document.getElementById("xuat").innerHTML = "khong phai so nay" ;}
+   }
+ }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KT Năm Nhuận</title>
+</head>
+<body>
+     <div>
+       <p>Nhập số năm:  </p>
+       <input type="text" id="Nhap" >
+       <button onclick="Search()">Search</button>
+       <p id="Xuat"></p>
+     </div>
+<script>
+  var search = document.getElementById("Nhap");
+   var xuat = document.getElementById("Xuat");
+  function Search() {
+    if (search.value % 4 === 0 && search.value % 100 !== 0) {
+      var th1 = search.value + " Là năm nhuận";
+         document.getElementById("Xuat").innerHTML = th1 ;
+    } else if(search.value % 100 === 0 && search.value % 400 === 0) {
+      var th1 = search.value + " Là năm nhuận";
+              document.getElementById("Xuat").innerHTML=th1;
+    }else {
+      var th2 = search.value + " không phải năm nhuận" ;
+      document.getElementById("Xuat").innerHTML= th2 ;
+    }
+  }
+</script>
+</body>
+</html>

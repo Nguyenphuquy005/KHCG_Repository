@@ -1,0 +1,166 @@
+
+body {
+    margin: 0px auto;
+}
+
+nav a {
+    font-size: 10px;
+    text-align: center;
+    color: bisque;
+}
+
+.paddingheader {
+    padding-left: 5em;
+}
+
+.paddingheadertelephone {
+
+}
+
+.filexlayout {
+    position: fixed;
+    top: 15em;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    transition: width 1s;
+
+}
+
+.filexlayout div {
+    border: 2px;
+    border-radius: 25px 0 0 25px;
+    display: flex;
+    height: 2em;
+
+}
+
+.filexlayout div p {
+    padding-top: 0.5em;
+    padding-left: 3em;
+    display: none;
+    padding-bottom: 0em;
+    justify-content: center;
+
+
+}
+
+.filexlayout img {
+    width: 3em;
+    height: 2em;
+    border: 2px;
+
+    border-radius: 10px 10px 10px 0;
+}
+
+.filexlayout:hover p {
+    width: 15em;
+    display: block;
+
+}
+
+.filexlayout:hover {
+    width: 15em;
+}
+#headerthanh{
+    background-color: red;
+}
+#headerthanh a,button {
+    color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding: 0.9em;
+    font-weight: 700;
+    background-color: red;
+    text-transform: uppercase;
+    border: none;
+}
+
+#bikeblook {
+    width: 100%;
+    /*background-image: url("https://motoanhquoc.vn/wp-content/uploads/2018/05/motoanh_3.jpg?id=4317");*/
+    background: white;
+
+    display: none;
+    border-radius: 10px ;
+}
+
+#tabs {
+    height: 28em;
+    border-radius: 10px ;
+    padding: 0;
+    margin-right: 0.26em;
+    background-image: url("https://motoanhquoc.vn/wp-content/uploads/2018/05/motoanh_3.jpg?id=4317");
+}
+
+#tablist {
+    border-radius: 10px 0 0 10px;
+    padding: 0;
+    width: 100%;
+    background-image: url("https://motoanhquoc.vn/wp-content/uploads/2018/05/motoanh_5.jpg?id=4319");
+}
+
+#tablist div {
+    padding: 0;
+    width: 100%;
+
+}
+
+#tablist div button {
+    border: none;
+    height: 3em;
+    background-image: url("https://motoanhquoc.vn/wp-content/uploads/2018/05/motoanh_5.jpg?id=4319");
+    width: 93%;
+    color: white;
+    outline: none;
+    width: 100%;
+}
+#tablist div button:hover {
+   color: saddlebrown;
+    background: grey;
+
+}
+
+#trimpstyle {
+
+    padding: 0;
+
+}
+#tabs-1{
+    width:100%;
+    height:28em;
+    overflow-x:hidden;
+    overflow-y:auto;
+    margin-left: -1em;
+    display: block;
+}
+
+#trimpstyle div {
+    width:100%;
+    padding: 0;
+    width: 109.5% ;
+    border-radius: 10px 10px 10px 0;
+}
+#trimpstyle img{
+    border-radius: 10px 10px 10px 0;
+}
+
+
+#trimpstyle td {
+    border-radius: 10px;
+    webkit-box-shadow: 9px 6px 11px 7px rgba(0,0,0,0.75);
+    moz-box-shadow: 9px 6px 11px 7px rgba(0,0,0,0.75);
+    box-shadow: 9px 6px 11px 7px rgba(0,0,0,0.75);
+}
+#trimpstyle h4 {
+    /*background: dodgerblue;*/
+    margin-right: 0.5em;
+    margin-top: 0;
+    text-align: center;
+    color: blue;
+    margin-right: 1.17em;
+    margin-bottom: 0;
+    background: white;
+    border-radius: 0 10px 10px 10px;
+}
+

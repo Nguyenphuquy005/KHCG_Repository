@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+    <style>
+        body {
+            background-color: slategrey;
+            margin-top: 3em;
+        }
+
+        #header {
+            margin-left: 0;
+            width: 100%;
+            background-color: brown;
+        }
+
+        #header div {
+            text-align: center;
+            color: black;
+            border: 3px double black;
+        }
+
+        #pennal img {
+            webkit-box-shadow: 2px -2px 19px 14px rgba(0, 0, 0, 0.75);
+            moz-box-shadow: 2px -2px 19px 14px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px -2px 19px 14px rgba(0, 0, 0, 0.75);
+        }
+
+        #header {
+            webkit-box-shadow: 2px -2px 19px 14px rgba(0, 0, 0, 0.75);
+            moz-box-shadow: 2px -2px 19px 14px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px -2px 19px 14px rgba(0, 0, 0, 0.75);
+        }
+
+        #pennal {
+            margin-left: 0;
+            width: 100%;
+        }
+
+        #pennal div {
+            padding: 4em 0 0 8em;
+
+        }
+
+        #button12  {
+         position: absolute;
+        }
+
+        #button12 button {
+
+            margin: 1px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div id="button12" class="container">
+        <div  class="row navbar navbar-expand-lg navbar-light">
+
+            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="col-md-8"></div>
+        <button type="button" class="btn btn-dark col-md-1.3"><a href="dangKy.html">Đăng Nhập</a></button>
+        <button type="button" class="btn btn-dark col-md-1.3"><a href="dangKy.html">Đăng Ký</a></button>
+        </div>
+        </div>
+
+    </div>
+
+    <div id="pennal" class="row">
+        <a href="http://www.harley-davidson.com/content/h-d/vi_VN/home.html?source_cd=TRBE" target="_blank">
+            <img src="data:image/jpeg;base64,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"
+                 alt="Harley-Davidson" width="" height="">
+        </a>
+
+        <div><h1>Death Group</h1>
+            <p>Wellcom to Infinity world</p></div>
+
+    </div>
+
+
+    <div id="header" class="row">
+        <div class="col-sm-4">Infomation</div>
+        <div class="col-sm-4">AdressGroup</div>
+        <div class="col-sm-4">Boss Man</div>
+    </div>
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Súng ngắn</a></li>
+            <li><a href="#tabs-2">Tiểu Liên</a></li>
+            <li><a href="#tabs-3">Súng trường</a></li>
+        </ul>
+        <div id="tabs-1">
+            <p>Súng ngắn hay súng lục là một loại súng được sử dụng nhiều nhất trên thế giới. Trong quân đội, ngoài
+                những khẩu súng tiểu liên, súng ngắm có khả năng sát thương cao và tầm bắn xa thì súng ngắn cũng là một
+                loại vũ khí không thể thiếu. Kích thước nhỏ gọn cùng với trọng lượng nhẹ, độ giật thấp, tính cơ động là
+                những đặc điểm nổi trội nhất của loại súng này. Hãy cùng điểm qua 10 loại súng được sử dụng phổ biến
+                nhất trên thế giới</p></div>
+        <div id="tabs-2">
+            <p>Súng tiểu liên là loại vũ khí cá nhân tầm gần, thuộc họ súng máy, cũng thuộc họ súng tự động tùy theo
+                phân loại của các quốc gia. Tiểu liên có thể có tầm bắn lý thuyết lên đến 1.000 m (AK-47, M16) nhưng cự
+                li sát thương có hiệu quả thường không quá 400 m, có loại chỉ 100 m (M3); cỡ nòng từ 5,56 mm (M16) đến
+                12 mm (M3), phổ biến nhất là hai cỡ nòng 5,56 mm (tiêu chuẩn NATO) và 7,62 mm (tiêu chuẩn khối
+                Warszawa). Do cấu tạo trích khí gián tiếp hoặc trực tiếp để lùi khóa nòng phối hợp với lò xo đẩy đạn, lò
+                xo hồi khóa nòng để nạp đạn tự động, tiểu liên có thể bắn từng phát hoặc bắn liên tục. Tốc độ bắn trong
+                thử nghiệm súng có thể đạt 600 phát/phút. Tốc độ bắn trong thực tế chiến đấu khoảng 100 phát/phút. Hộp
+                tiếp đạn có thể chứa từ 20 đến 40 viên. Một số loại tiểu liên cỡ lớn (AK-47) có thể lắp lưỡi lê để có
+                thể giáp lá cà. Trong chiến đấu, tiểu liên tạo mật độ hỏa lực cao khi tấn công bằng cách bắn rải, bắn
+                quét. Trong phòng ngự, tiểu liên phát huy độ chính xác khá cao khi bắn điểm xạ (2 đến 3 phát liên
+                tục).[1]</p>
+        </div>
+        <div id="tabs-3">
+            <p>Súng trường (tiếng Anh: Rifle), là loại súng cá nhân gọn nhẹ với nòng súng được chuốt rãnh xoắn, có báng
+                súng và ốp lót tay hoàn chỉnh để phục vụ mục đích bắn điểm xạ. Rãnh xoắn này trong nòng súng được gọi là
+                khương tuyến; khi bắn, viên đạn ép chặt vào thành nòng và miết vào khương tuyến này, biến dạng đồng thời
+                tự xoay quanh trục nòng súng để tạo ra đường đạn ngoài sau khi bắn. Viên đạn sau khi thoát ra khỏi nòng
+                sẽ xoáy mạnh trong không khí và tạo ra hiệu ứng khí động học giúp súng trường tầm bắn xa hơn hẳn so với
+                các loại súng cổ như súng kíp hay súng hỏa mai. Từ "rifle" trong tiếng Anh cũng có nghĩa là "rãnh xoắn",
+                và một khẩu súng trường cũng được gọi là "a rifle gun"[1
+            </p></div>
+    </div>
+</div>
+<div class="container">
+<div  class="row">
+    <div class="col-sm-4 p-3"><div style="background-color: red;text-align: center">demo</div></div>
+    <div class="col-sm-4 p-3"><div style="background-color: black;text-align: center">demo</div></div>
+    <div class="col-sm-4 p-3"><div style="background-color: blue;text-align: center">demo</div></div>
+</div>
+</div>
+<div class="container">
+  <p style="text-align: center;padding: 5em">
+      Các lập trình viên thường xuyên cần sắp xếp các phần tử từ cơ sở dữ liệu vào một collection, array, or map. Trong Java, chúng ta có thể thực hiện bất kỳ thuật toán sắp xếp nào chúng ta muốn với bất kỳ loại nào. Sử dụng Comparable interface và compareTo(), chúng ta có thể sắp xếp bằng thứ tự chữ cái, độ dài chuỗi,
+      thứ tự chữ cái ngược hoặc số. Comparator interface cho
+      phép chúng ta làm tương tự nhưng theo cách linh hoạt hơn.
+  </p>
+</div>
+</body>
+</html>

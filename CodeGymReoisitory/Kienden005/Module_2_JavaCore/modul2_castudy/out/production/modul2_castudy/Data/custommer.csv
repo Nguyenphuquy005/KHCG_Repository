@@ -1,0 +1,6 @@
+idCustomer,fullName,Birthday,Sex,phoneNumber,idCard,email,styleGuest,Address,usedServices
+,,,,null,null,,,
+b6aeab5ad33446329608f2a676f310fd,Huy,12/12/1202,male,1234568797,1234 5678,sdsd@gmail.com,sdsd,sdsd
+bc0bc569e7884a39ab3d57e06efae25e,Kiên,12/12/2012,male,1234587974,1234 5678,ssd@gmail.com,sd,sdsd
+eeadae8596f44813a39734ceabc11abd,Aam,12/12/5220,male,1234567894,1234 5678,sdsd@gmail.com,sdsd,sdsd
+b61bbae879df4a19b92e1e8020f66401,Huy,12/12/2015,male,1234567894,1234 5678,sdsd@gmail.com,sdsd,sdsd

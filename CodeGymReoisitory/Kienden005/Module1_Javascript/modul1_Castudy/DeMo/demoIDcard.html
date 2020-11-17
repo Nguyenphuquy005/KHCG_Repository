@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var idcard;
+    do {
+        idcard = prompt("Enter Idcard: ");
+    } while (!checkIDcard(idcard));
+
+    function checkIDcard(id) {
+
+
+        if (id.length !== 10) {
+            return false;
+        }
+        if (isNaN(id.split("@").join(" "))) {
+            return false;
+        }
+        // for (var i = 0; i < id.length; i++) {
+        //     if (id[i] !== "0" && id[i] !== "1" && id[i] !== "2" && id[i] !== "3" && id[i] !== "4" &&
+        //         id[i] !== "5" && id[i] !== "6" && id[i] !== "7" && id[i] !== "8" && id[i] !== "9") {
+        //         return false;
+        //     }
+      //  }
+        return true;
+    }
+    alert(idcard);
+</script>
+</body>
+</html>

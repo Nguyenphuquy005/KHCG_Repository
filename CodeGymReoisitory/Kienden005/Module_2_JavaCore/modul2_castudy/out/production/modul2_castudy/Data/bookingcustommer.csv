@@ -1,0 +1,3 @@
+idCustomer,fullName,Birthday,Sex,phoneNumber,idCard,email,styleGuest,Address,usedServices
+,,,,null,null,,,,null
+,,,,null,null,,,,Models.House@724af044

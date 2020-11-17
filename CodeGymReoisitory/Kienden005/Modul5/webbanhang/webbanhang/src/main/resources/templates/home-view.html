@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: 'GET',
+                url: 'http://localhost:8080/goods-view',
+                success: function (data) {
+                    let htmlCode = `<tr>
+                    <th scope="col">Price</th>
+                        <th scope="col">GoodName</th>
+                        <th scope="col">QuanTity</th>
+                        <th scope="col">TradeMark</th>
+                        <th scope="col">SaleOff</th>
+                        <th scope="col">PriceForSaleOff</th>
+                        <th scope="col">Category</th>
+                        </tr>`
+                    data.forEach(papa => {
+                        console.log(papa)
+                        $('#main_list').append("<tr>"
+                            + "<th scope=\"row\">" + papa.price + "</th>"
+                            + "<td>" + papa.goodName + "</td>"
+                            + "<td>" + papa.quantity + "</td>"
+                            + "<td>" + papa.tradeMark + "</td>"
+                            + "<td>" + papa.saleOff + "</td>"
+                            + "<td>" + papa.priceForSaleOff + "</td>"
+                            + "<td>" + papa.category.name + "</td>"
+                            + "</tr>")
+                    })
+                    document.getElementById("t1").innerHTML = htmlCode;
+                }
+            })
+        })
+
+        function getInfor() {
+            var search = document.getElementById("search").value;
+            if (search == "") {
+                var valid = "Hãy nhập vào tên sản phẩm hoặc danh mục cần tìm kiếm!";
+                document.getElementById("valid").innerHTML = valid;
+            } else {
+                document.getElementById("valid").innerHTML = "";
+            }
+            if (search) {
+            }
+        }
+    </script>
+
+</head>
+<body>
+<form action="" , method="get">
+    <input name="search" id="search" placeholder="search enter">
+    <button onclick="getInfor(); return false" class="btn-primary">Search</button>
+    <span style="color: red" id="valid"></span>
+</form>
+<span id="t"></span>
+<div class="container">
+    <table class="table" id="t1">
+<!--        <thead class="thead-dark">-->
+<!--        <tr>-->
+<!--            <th scope="col">Price</th>-->
+<!--            <th scope="col">GoodName</th>-->
+<!--            <th scope="col">QuanTity</th>-->
+<!--            <th scope="col">TradeMark</th>-->
+<!--            <th scope="col">SaleOff</th>-->
+<!--            <th scope="col">PriceForSaleOff</th>-->
+<!--            <th scope="col">Category</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+        <tbody id="main_list">
+
+        </tbody>
+    </table>
+
+</div>
+</body>
+</html>

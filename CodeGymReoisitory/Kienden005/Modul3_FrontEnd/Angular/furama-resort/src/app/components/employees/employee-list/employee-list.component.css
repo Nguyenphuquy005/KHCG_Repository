@@ -1,0 +1,9 @@
+
+#dialog{
+  border:3px solid #00ff00;
+  width:200px;
+  height:400px;
+  overflow-x:hidden;
+  overflow-y:auto;
+  border-radius: 5px;
+}

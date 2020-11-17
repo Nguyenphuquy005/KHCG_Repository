@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <title>Currency</title>
+</head>
+<body>
+<fieldset>
+  <label for="">Amount: </label>
+  <input id="amountmoney" type="text" name="amount"><br>
+  <label for="">From Currency</label>
+  <select id="fromCurrency">
+    <option value="vnd">Viet Nam Dong</option>
+    <option value="usd">US Dollar</option>
+  </select>
+  <label for="">To Currency</label>
+  <select id="toCurrency">
+    <option value="usd">US Dollar</option>
+    <option value="vnd">Viet Nam Dong</option>
+  </select>
+  <input type="submit" value="Convert" onclick="myFunction();">
+  <div id="Xuat"></div>
+</fieldset>
+<fieldset>
+  <input id="ham2" type="text">
+  <button onclick="CD()">Search</button>
+  <div id="nhap2">s</div>
+</fieldset>
+<script>
+  function myFunction() {
+    var amount = parseInt(document.getElementById("amountmoney").value);
+    var fromCurrency = document.getElementById("fromCurrency").value;
+    var toCurrency = document.getElementById("toCurrency").value;
+    let dongConveter = amount / 23000;
+    let dollarConverter = amount * 23000;
+    if (amount < 0) {
+      // alert("Please input a positive number motherfucker!!!");
+      var th1 = "TheMoney can not nevety nowel";
+      document.getElementById("Xuat").innerHTML = th1;
+    } else {
+      if (fromCurrency == "vnd" && toCurrency == "vnd" || fromCurrency == "usd" && toCurrency == "usd") {
+        // alert("The converted amount is:" + amount);
+        var th2 = "The converted amount is:" + amount;
+        document.getElementById("Xuat").innerHTML = th2;
+      }
+      if (fromCurrency == "vnd" && toCurrency == "usd") {
+        // alert("The converted amount is: " + dongConveter + " dollars.");
+        var th4 = "The converted amount is: " + dongConveter + " dollars.";
+        document.getElementById("Xuat").innerHTML = th4;
+      }
+      if (fromCurrency == "usd" && toCurrency == "vnd") {
+        // alert("The converted amount is: " + dollarConverter + " viet nam dongs.");
+        var th3 = "The converted amount is: " + dollarConverter + " viet nam dongs.";
+        document.getElementById("Xuat").innerHTML = th3;
+      }
+    }
+
+  }
+
+  var ham2 = document.getElementById("ham2");
+
+  function CD() {
+    var x = "SoChan" ;
+    var y= "SoLe" ;
+    var varable = ((ham2.value % 2 === 0) ? x : y);
+    document.getElementById("nhap2").innerHTML = varable;
+  }
+</script>
+
+</body>
+
+</html>

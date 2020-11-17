@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  do {
+    var nhap = prompt("nhap:  ");
+  }while (!kt(nhap));
+  // function kt(KTDAutien) {
+  //        var fitter = /^[A-Z]/;
+  //        if (!fitter.test(KTDAutien)){
+  //          return false ;
+  //        }
+  //   return  true;
+  //}
+
+  function kt(email) {
+    var fitter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if(!fitter.test(email)){
+      return false;
+    }
+    return true ;
+  }
+
+// function Brithday(briday) {
+//     var fitter = /[0-9]{2}*//
+// }
+// function kt(e) {
+//   var fitter = /^[0-9]{10}/;
+//  if(!fitter.test(e)) {
+//     return false ;
+//   }
+//   return true ;
+// }
+
+// function kt(e) {
+//   regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+//   if (regexp.test(e)) {
+//     return true;
+//   }
+//   return false;
+// }
+
+  // function kt(e) {
+  //   var fitter = /^[_a-z0-9]{6,}$/;
+  //   if (!fitter.test(e)){
+  //     return false;
+  //   }
+  //   return  true;
+  // }
+
+  // function kt(e) {
+  //   var fitter = /^[A-Z]{1}[0-9]{4}[A-Z]{1}/;
+  //
+  //     if (!fitter.test(e)){
+  //       return false;
+  //     }
+  //     return  true;
+  // }
+
+  // function kt(e) {
+  //   var fitter = /^[84]+\-([0-9]{9})+$/;
+  //   return fitter.test(e);
+  // }
+</script>
+</body>
+</html>

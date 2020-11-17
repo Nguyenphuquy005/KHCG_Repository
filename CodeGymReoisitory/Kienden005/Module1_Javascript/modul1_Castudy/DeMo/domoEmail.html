@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    do{
+        var email = prompt("Nhap:") ;
+    }while (!cheickEmail(email));
+    function cheickEmail(e) {
+        if(e[0] === "@"){
+            return false ;
+        }
+
+        if (isNaN(e.join(""))) {
+            return false;
+        }
+        for( var i=1;i<e.length;i++){
+            if (e[i] === "@"){
+                for (var j=1 ; j< i ;j++){
+                    e[i] === "@" ;
+                    if(e[j]==="@"){
+                        return false;
+                    }
+                }
+            }
+        }
+       return true;
+
+        }
+
+
+
+</script>
+</body>
+</html>

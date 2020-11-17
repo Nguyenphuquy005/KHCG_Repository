@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0c77372-358b-44fe-aad7-759f4615ca34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BaiThi/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiThi/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiThi/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/.idea/4.Funtion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/BT01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/BTo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/HamBinhPhuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/HienThiN_SNT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/HienThi_N_SNT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/TimGTNN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.Funtion/ĐộC_ĐôF.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.OOB/CDNhietDo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.OOB/Funny circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.OOB/HT lớp HT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.OOB/HtHinhTron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.OOB/Hình Chu Nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.OOB/KhaisMienLop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.OOB/MobiPhoneObb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Araray/.idea/Araray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Araray/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Araray/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Araray/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Araray/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Araray/DaySo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Araray/ỨngDungFaking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GiaThuat/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOb2/FastFlamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOb2/NguoiAnTao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/CÔnc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/GameDoanSo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/KyTuDauTien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ÔnThi/KtSoNgayTorngThang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ÔnThi/SapXep.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ÔnThi/ThiThu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ÔnThi/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ÔnThi/bai5_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/DeMo/DemoYeucau4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/DeMo/demo3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/DeMo/demo4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/DeMo/demoIsNan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/DeMo/demoYC5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/DeMo/demoYeuCau41.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/UDTT/Custommer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/UDTT/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/YeuCAu4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/YeuCau5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/Yêu cầu 6/Chay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/Yêu cầu 6/Custommer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/Yêu cầu 6/RunFS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Araray/ArrayDaongu9oc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Araray/ArrayDaongu9oc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Araray/BT01.html" beforeDir="false" afterPath="$PROJECT_DIR$/Araray/BT01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BT02.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai1__Bai3/BT02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai1__Bai3/HTSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai1__Bai3/HTSoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TinhSoNgayTrong thang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai1__Bai3/TinhSoNgayTrong thang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý/YeuCau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/CodeGym_Nguyễn Phú Quý. C1119G1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/CodeGym_Nguyễn Phú Quý. C1119G1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/~$seStudy_FuramaResort_Module1_V1.0.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JameCode" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1VV1cqFVJd7IMUPRdLWqnS6vGBt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Angular2Html" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../modul1_Nguyễn Phú Quý" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\WebstormProjects\JameCode\Bai1__Bai3" />
+      <recent name="D:\CodeGym\WebstormProjects\UngDungMayTinh" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0c77372-358b-44fe-aad7-759f4615ca34" name="Default Changelist" comment="" />
+      <created>1574930531253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574930531253</updated>
+      <workItem from="1574930532659" duration="65000" />
+      <workItem from="1574930598583" duration="2022000" />
+      <workItem from="1574956000795" duration="9614000" />
+      <workItem from="1574989123742" duration="12384000" />
+      <workItem from="1575009128741" duration="5216000" />
+      <workItem from="1575038514714" duration="6810000" />
+      <workItem from="1575087755327" duration="4764000" />
+      <workItem from="1575132726041" duration="2135000" />
+      <workItem from="1575135381606" duration="1370000" />
+      <workItem from="1575211027095" duration="8991000" />
+      <workItem from="1575220086946" duration="1214000" />
+      <workItem from="1575248342802" duration="2593000" />
+      <workItem from="1575255921727" duration="5711000" />
+      <workItem from="1575261703654" duration="24000" />
+      <workItem from="1575268713693" duration="9545000" />
+      <workItem from="1575297056483" duration="1474000" />
+      <workItem from="1575334741289" duration="7524000" />
+      <workItem from="1575355088440" duration="5876000" />
+      <workItem from="1575423059438" duration="10079000" />
+      <workItem from="1575441812890" duration="10089000" />
+      <workItem from="1575474087345" duration="2893000" />
+      <workItem from="1575508902812" duration="4349000" />
+      <workItem from="1575526793561" duration="5539000" />
+      <workItem from="1575594782802" duration="5128000" />
+      <workItem from="1575614011452" duration="493000" />
+      <workItem from="1575616058853" duration="1331000" />
+      <workItem from="1575820699828" duration="1391000" />
+      <workItem from="1575856552942" duration="3552000" />
+      <workItem from="1575874211266" duration="9317000" />
+      <workItem from="1575959312224" duration="8417000" />
+      <workItem from="1576029969432" duration="1416000" />
+      <workItem from="1576047057003" duration="8153000" />
+      <workItem from="1576071294681" duration="7558000" />
+      <workItem from="1576114429566" duration="2522000" />
+      <workItem from="1576206257961" duration="280000" />
+      <workItem from="1576415667211" duration="70000" />
+      <workItem from="1576424103929" duration="436000" />
+      <workItem from="1576458609674" duration="4121000" />
+      <workItem from="1576564033820" duration="12649000" />
+      <workItem from="1576596503136" duration="5779000" />
+      <workItem from="1576651012972" duration="1307000" />
+      <workItem from="1576727803566" duration="2162000" />
+      <workItem from="1576737548833" duration="11277000" />
+      <workItem from="1576767681131" duration="228000" />
+      <workItem from="1576805735878" duration="9227000" />
+      <workItem from="1576824324237" duration="13451000" />
+      <workItem from="1576843188674" duration="3859000" />
+      <workItem from="1576854350562" duration="1846000" />
+      <workItem from="1577063658302" duration="11677000" />
+      <workItem from="1577081929116" duration="5712000" />
+      <workItem from="1577087747951" duration="8949000" />
+      <workItem from="1577101574177" duration="2227000" />
+      <workItem from="1577108610509" duration="8708000" />
+      <workItem from="1577150495208" duration="4140000" />
+      <workItem from="1577169672734" duration="2260000" />
+      <workItem from="1577199985705" duration="1467000" />
+      <workItem from="1577240588116" duration="14000" />
+      <workItem from="1577257467790" duration="5299000" />
+      <workItem from="1577324088423" duration="8838000" />
+      <workItem from="1577409025830" duration="331000" />
+      <workItem from="1577429394266" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="428" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577331372862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1577331372862" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1577429450437">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577429450437" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1577429395370">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577429395370" />
+    <state x="65" y="89" key="new project wizard" timestamp="1577429456068">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="89" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1577429456068" />
+  </component>
+</project>

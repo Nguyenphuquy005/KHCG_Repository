@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23dfe819-2771-4566-b0f0-b0b25c3dc52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/.idea/4.Funtion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/BT01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/BTo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/HamBinhPhuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/HienThiN_SNT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/HienThi_N_SNT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/TimGTNN.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/4.Funtion/ĐộC_ĐôF.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/5.OOB/CDNhietDo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/5.OOB/Funny circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/5.OOB/HT lớp HT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/5.OOB/HtHinhTron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/5.OOB/Hình Chu Nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/5.OOB/KhaisMienLop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/5.OOB/MobiPhoneObb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/.idea/Araray.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/ỨngDungFaking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/OOb2/FastFlamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/DeMo/DemoYeucau4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/DeMo/YeuCau6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/DeMo/demo3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/DeMo/demo4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/DeMo/demoIsNan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/DeMo/demoYC5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/DeMo/demoYeuCau41.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/UDTT/Custommer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/UDTT/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/YeuCAu4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/YeuCau5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodeGym_Nguyễn Phú Quý. C1119G1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../CodeGym_Nguyễn Phú Quý. C1119G1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../~$seStudy_FuramaResort_Module1_V1.0.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/ArrayDaongu9oc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/ArrayDaongu9oc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/BT01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Araray/BT01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/BT02.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Bai1__Bai3/BT02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Bai1__Bai3/HTSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Bai1__Bai3/HTSoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/TinhSoNgayTrong thang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/JameCode/Bai1__Bai3/TinhSoNgayTrong thang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../WebstormProjects/modul1_Nguyễn Phú Quý/YeuCau3.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Phone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Run.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/Phone.js" />
+        <option value="$PROJECT_DIR$/Run.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/../.idea/untitled.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23dfe819-2771-4566-b0f0-b0b25c3dc52c" name="Default Changelist" comment="" />
+      <created>1575598394292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575598394292</updated>
+      <workItem from="1575598398690" duration="3830000" />
+      <workItem from="1575625542310" duration="823000" />
+      <workItem from="1576458589343" duration="645000" />
+      <workItem from="1576463552993" duration="6331000" />
+      <workItem from="1576470937579" duration="21000" />
+      <workItem from="1576478611187" duration="3865000" />
+      <workItem from="1576496096744" duration="206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15721000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23586309" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1225" column="32" selection-start-line="1225" selection-start-column="32" selection-end-line="1225" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Phone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

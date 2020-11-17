@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: 'GET',
+                url: 'http://localhost:8080/bill-view',
+                success: function (data) {
+                    data.forEach(papa =>{
+                        $('#main_list').append("<tr>"
+                            + "<th scope=\"row\">" + papa.createDate + "</th>"
+                            + "<td>" + papa.billType + "</td>"
+                            + "<td>" + papa.quantity + "</td>"
+                            + "<td>" + papa.user.id + "</td>"
+                            + "</tr>")
+                    })
+                }
+            })
+        })
+    </script>
+
+</head>
+<body>
+<!--<div class="container">-->
+<!--    <table class="table">-->
+<!--        <thead class="thead-dark">-->
+<!--        <tr>-->
+<!--            <th scope="col">CreatedDate</th>-->
+<!--            <th scope="col">BillType</th>-->
+<!--            <th scope="col">QuanTity</th>-->
+<!--            <th scope="col">UserID</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody id="main_list">-->
+
+<!--        </tbody>-->
+<!--    </table>-->
+
+<!--</div>-->
+<form th:action="@{/goods-view}"  , method="get">
+    <input type="text" name="keyword" id="search"  placeholder="search enter">
+    <input type="submit" value="Search">
+<!--    <input type="submit" value="Clear" onclick="backInfor">-->
+<!--    <button onclick="getInfor(); return false" class="btn-primary">Search</button>-->
+<!--    <span style="color: red" id="valid"></span>-->
+</form>
+<div id="bill-info">
+</div>
+<script src="mail.js"></script>
+</body>
+</html>

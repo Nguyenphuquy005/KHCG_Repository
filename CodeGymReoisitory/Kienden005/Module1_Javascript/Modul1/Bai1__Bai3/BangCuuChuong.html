@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SinhBangCuuChuong</title>
+</head>
+<body>
+<script>
+ let sound;
+  sound = "<table border='20' width='500' cellpadding='0' cellspacing='0' >";
+  for (i=1 ; i<=9 ;i++ ){
+    sound = sound   + "<tr>";
+    for (n = 2; n <= 9; n++) {
+      sound = sound + "<td>" + n + "x" + i +"="+ (n*i)  + "</td>"  ;
+    }
+    sound = sound + "</tr>" ;
+  }
+  sound = sound + "</table>";
+  document.write(sound);
+ //
+
+</script>
+</body>
+</html>

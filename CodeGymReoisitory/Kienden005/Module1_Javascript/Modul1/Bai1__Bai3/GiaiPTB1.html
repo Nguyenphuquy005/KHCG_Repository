@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Giai PT bac 1 ax + b = 0</p>
+ <input type="text" id="a" placeholder="a" />
+<input type="text" id="b"  placeholder="b" />
+<button onclick="Xuat()" > Search </button>
+
+<div id="xuat" >s</div>
+<script>
+  var a =  document.getElementById("a") ;
+  var b = document.getElementById("b");
+  function Xuat() {
+    var a1 = parseInt(a.value);
+    var b1 = parseInt(b.value)
+    if( a1 === 0 && b1 === 0) {
+      document.getElementById("xuat").innerHTML = "PT co vo so nghiem";
+      }
+    else  if(a1 === 0 && b1 !== 0){
+ document.getElementById("xuat").innerHTML = "PT VN";
+ }
+    else if(a1 !== 0) {
+  document.getElementById("xuat").innerHTML = "PT cos 1 nghiem x=" + eval(-b1/a1) ;
+}
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        form div {
+            margin-left: 15em;
+        }
+        form button {
+            margin-left: 15em;
+        }
+    </style>
+</head>
+<body>
+<h3>Add New Product</h3>
+<a th:href="@{/}">Back to menu</a> <br>
+
+<form th:action="@{/customer/addnewcustomer}" method="post" novalidate th:object="${customer}">
+    <div class="form-group">
+        <label for="exampleInputEmail1">1.Name</label>
+        <input th:field = "*{name}" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+    </div>
+    <div class="form-group">
+        <lable>2.typeProduct</lable>
+        <select style="margin-left: 2em"  th:field = "*{typeProduct}">
+            <option value="Telephone">Telephone</option>
+            <option value="TiVi">TiVi</option>
+            <option value="TuLanh">TuLanh</option>
+        </select><br>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">3.Slary</label>
+        <input th:field = "*{slary}" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">4.Num</label>
+        <input th:field = "*{num}" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">5.Mota</label>
+        <input th:field = "*{mota}" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+</table>
+</body>
+</html>

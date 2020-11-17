@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+</head>
+<body>
+<button onclick="nhap()" >Start</button>
+<script>
+  function nhap() {
+    var lucky = Math.floor(Math.random() * 10 );
+    var count   =0 ;
+
+    while (count<4){
+      var bt = parseInt(prompt("Moi bạn nhập: "));
+      count++;
+      if (bt === lucky) {
+        alert("luck");
+        break;
+      }
+      }
+
+    if (count===4){
+      alert("lost");
+    }
+  }
+</script>
+</body>
+</html>

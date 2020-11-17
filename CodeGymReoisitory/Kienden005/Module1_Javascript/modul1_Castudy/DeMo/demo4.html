@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var birthday;
+    do {
+        birthday = prompt("Enter birthday customer(DD/MM/YYYY)");
+
+    } while (!bri2(birthday));
+
+    function bri2(bri3) {
+
+        var date = parseInt((bri3[0] + bri3[1]));
+        var month = parseInt((bri3[3] + bri3[4]));
+
+        if (bri3[2] !== "/"
+        || bri3[5] !== "/"
+        || bri3.length !== 10) {
+            return false ;
+        }
+        if (isNaN(bri3.split("/").join(" "))) {
+            return false;
+        }
+        if (bri3[0] === "0" && bri3[1] === "0") {
+            return false;
+        }
+        if (date < 0 || date > 31) {
+            return false;
+        }
+        if (month < 1 || month > 12) {
+            return false;
+        }
+        return true;
+    }
+    alert(birthday);
+</script>
+</body>
+</html>

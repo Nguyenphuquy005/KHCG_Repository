@@ -1,0 +1,36 @@
+body{
+    margin:  0px auto;
+}
+
+main a ,h1 {
+    color: blanchedalmond;
+    text-decoration: none;
+
+}
+main h3 {
+    color: black;
+}
+main h3:hover{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px chocolate;
+}
+main p:hover{
+
+    border: 2px solid chocolate;
+
+    border-radius: 50px 20px;
+}
+main img {
+    margin-top: 2em;
+    border: 2px solid red;
+
+    border-radius: 25px;
+}
+#link{
+    background-color: chocolate ; display: flex ;  justify-content: space-evenly ;
+}
+#link a:hover{
+background-color: black;
+
+}

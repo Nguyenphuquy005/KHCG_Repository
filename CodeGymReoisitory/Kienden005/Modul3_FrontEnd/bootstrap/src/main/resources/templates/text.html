@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="main.js" ></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn").click(function(){
+                $.ajax({type:"GET", url: "https://api.meetup.com/2/cities", success: function(result){
+                        $(".text").text(JSON.stringify(result));
+                    },
+                    dataType: 'jsonp',
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<button id="button" class="btn"> Click me!</button>
+<p id="div1" class="text">Replace me!!</p>
+
+</body>
+</html>

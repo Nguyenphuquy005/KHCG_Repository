@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+        $(function () {
+             $('#show').click(function () {
+                 $('#checktitle').text("Title: " + $('#title').val()) ;
+                 $('#checkname').text("Full Name: " + $('#firstname').val()+" "+ $('#lastname').val()) ;
+                 $('#checkposition').text("Position: " + $('#position').val()) ;
+                 $('#checkconpany').text("Company: " + $('#company').val()) ;
+                 $('#checkbussiness').text("Bussiness Arena: " + $('#checkbussiness').val()) ;
+                 $('#checkemployee').text("Employee: " + $('#employee').val()) ;
+                 $('#checkstreet').text("Street Nr: " + $('#street').val()) ;
+                 $('#checkadditional').text("Additional: " + $('#additional').val()) ;
+                 $('#checkplace').text("Place: " + $('#place').val()) ;
+                 $('#checkcode').text("Code: " + $('#code').val()) ;
+                 $('#checkphonenumber').text("Phone Number: " + $('#phonenumber').val()) ;
+                 $('#checkemail').text("Your Email: " + $('#email').val()) ;
+                 $( "#dialog" ).dialog()
+             })
+        })
+        $('.ajaxbutton').click(function() {
+
+            $('.text').text('loading . . .');
+
+            $.ajax({
+                type:"GET",
+                url:"https://api.meetup.com/2/cities",
+                success: function(data) {
+                    $('.text').text(JSON.stringify(data));
+                },
+                dataType: 'jsonp',
+            });
+
+        });
+          $(document).ready(function () {
+              $('.ajaxbutton').click(function () {
+                  $.ajax({type:"GET", url: "https://api.meetup.com/2/cities", success: function(result){
+                          $(".text").text(JSON.stringify(result));
+                      },
+                      dataType: 'jsonp',
+                  });
+                  })
+          })
+
+    </script>
+    <style>
+        body {
+            padding-top: 0px;
+            background-image: url("https://images.guns.com/dev/2019/09/23/5d89152aec504fdb7531b986115ce08d18edd92e85f39.jpg");
+            margin: 5em auto;
+
+        }
+        #form1{
+           background-color: white;
+            height: 40em;
+            border-left: 10px solid dodgerblue;
+            border-right: 10px solid dodgerblue;
+            border-radius: 25px;
+            padding-top: 3em;
+        }
+        #form1  input,select{
+            padding: 2px;
+            margin: 3px;
+            border: none;
+            border-bottom: 1px solid grey;
+            height: 3em;
+        }
+        #form2{
+            background-color: midnightblue;
+            height: 40em;
+            border-right: 10px solid dodgerblue;
+            border-radius: 25px;
+            padding-top: 3em;
+        }
+        #form2  select  {
+            padding: 2px;
+            margin: 3px;
+            border: none;
+            border-bottom: 1px solid grey;
+            height: 3em;
+            background-color: midnightblue;
+            color: white;
+        }
+        #form2 input{
+            padding: 2px;
+            margin: 3px;
+            border: none;
+            border-bottom: 1px solid grey;
+            height: 3em;
+            background-color: midnightblue;
+            color: white;
+        }
+        #form2 button{
+            margin-top: 3em;
+            height: 3em;
+            border: 2px solid ;
+            padding: 10px;
+            border-radius: 25px;
+
+        }
+        .container{
+            border-left: 10px solid dodgerblue;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<div   id="dialog" style="display: none">
+    <pre id="checktitle"></pre>
+    <pre id="checkname"></pre>
+    <pre id="checkposition"></pre>
+    <pre id="checkconpany"></pre>
+    <pre id="checkbussiness"></pre>
+    <pre id="checkemployee"></pre>
+    <pre id="checkstreet"></pre>
+    <pre id="checkadditional"></pre>
+    <pre id="checkplace"></pre>
+    <pre id="checkcode"></pre>
+    <pre id="checkphonenumber"></pre>
+    <pre id="checkemail"></pre>
+
+</div>
+
+<div class="container" style="width: 60%">
+    <div class="row">
+   <div id="form1" style="border: 1px double black" class="col-sm-6">
+       <h3 style="color: blue" >Greneral Infomation</h3>
+       <form action="">
+           <select id="title" style="width: 100%" >
+               <option value="Title">Title</option>
+           </select>
+           <input style="width: 40%" id="firstname" type="text" placeholder="FirtName">
+           <input id="lastname" type="text" placeholder="LastName">
+           <select id="position" style="width: 100%" >
+               <option value="Position">Position</option>
+           </select><br>
+           <input id="company" style="width: 100%" type="text" placeholder="Company"> <br>
+           <input id="bussinessarena" type="text" placeholder="BussinessArena">
+           <select id="employee" style="text-align: right">
+           <option  value="Employee">Employee</option>
+            </select>
+       </form>
+   </div>
+   <div id="form2"  class="col-sm-6">
+       <h3 style="color: white" >Contact Details</h3>
+       <form action="">
+           <input id="street" style="width: 100%" type="text" placeholder="Street+Nr"> <br>
+           <input id="additional" style="width: 100%" type="text" placeholder="Additional Information"> <br>
+           <input id="zipcode"  type="text" placeholder="ZipCode">
+           <select id="place" style="text-align: right">
+               <option value="Place">Place</option>
+           </select> <br>
+           <select id="coundtry" style="text-align: right">
+               <option value="Country">Country</option>
+           </select> <br>
+           <select id="code" style="text-align: right">
+               <option value="Code">Code</option>
+           </select>
+           <input id="phonenumber" type="text" placeholder="Phone Number"> <br>
+           <input id="email" style="width: 100%" type="text" placeholder="Your Email"><br>
+           <input style="margin-bottom: -1em" type="radio" id="f-option" ><p style="color: white;margin-top: -2.5em;margin-left: 2em" for="f-option">I do Accept th <a href="">Teams and Coditions</a> of yoursite</p>
+             <button type="button"   id="show">Register Badge</button>
+              <button type="button" class="ajaxbutton"> Click me!</button>
+       </form>
+   </div>
+    </div>
+    <div style="color: red" class="text"></div>
+</div>
+
+</body>
+</html>

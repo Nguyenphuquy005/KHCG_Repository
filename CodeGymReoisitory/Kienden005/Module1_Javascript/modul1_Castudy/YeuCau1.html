@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modull1</title>
+</head>
+<body>
+         <script>
+             var name = prompt("Name: ");
+             var IdCard = prompt("IdCard: ");
+             var Briday = prompt("Birday: ");
+             var Email= prompt("Email: ");
+             var Address = prompt("Address: ");
+             var Custom=prompt( "Custom: ");
+             var Sale=prompt("Sale: ");
+             var NumberScrem=prompt("NumberScrem: ");
+             var DayNunber=prompt("Daynumber");
+             var Service=prompt("Service: ");
+             var Styperoom = prompt("Style Room: " +"\n"+"1.Villa: "+"\n"+"2.House: "+"\n"+"3.Room: ");
+             var price ;
+             if(Styperoom==="1"){
+                 price = 500 ;
+             }else if(Styperoom==="2"){
+                 price = 300;
+             }else if(Styperoom==="3"){
+                 price = 100 ;
+             }
+                var Bill;
+             Bill = price * DayNunber * (1-Sale/100);
+             alert("Name: "+name+ "\n" +"TdCard: "+IdCard+"\n" +"Brithday: "+Briday+"\n"+"Email"+Email+"\n"+"Address: "+Address
+             +"\n" +'Custom: '+Custom+"\n" +"Sale: "+Sale+"\n" +"NumberScrem: "+NumberScrem+"\n" +"DayNumber: "+DayNunber+"\n" +"Service: "+Service
+             +"\n" +"Styleroom:  "+ Styperoom +"\n"+ Bill);
+         </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hiển thị số nguyên tố</title>
+</head>
+<body>
+<p></p>
+<script>
+  var n = 2;
+  var count = 0;
+  var result = "";
+  var number = prompt("Nhap:  ");
+  begin();
+
+  function begin() {
+    while (count < number) {
+      if (DK(n)) {
+        result += (n + " ");
+        count++;
+      }
+      n++;
+    }
+    document.write(result);
+  }
+
+  function DK(n) {
+    var char = true;
+    for (var j = 2; j <= n - 1; j++) {
+      if (n % j === 0) {
+        char = false;
+        break;
+      }
+    }
+    return char;
+  }
+</script>
+</body>
+</html>

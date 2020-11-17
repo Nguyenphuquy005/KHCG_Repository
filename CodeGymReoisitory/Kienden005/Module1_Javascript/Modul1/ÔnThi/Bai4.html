@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<script>
+
+  var Employee = function () {
+    this.setName = function (name) {
+      this.Name = name;
+    };
+    this.getName = function () {
+      return this.Name
+    };
+    this.setAddress = function (address) {
+      this.Address = address;
+    };
+    this.getAddress = function () {
+      return this.Address;
+    };
+    this.setUsername = function (username) {
+      this.Username = username;
+    };
+    this.getUssername = function () {
+      return this.Username;
+    };
+    this.setPassword = function (password) {
+      this.Password = password;
+    };
+    this.getPassword = function () {
+      return this.Password;
+    }
+  };
+  var lisEmployee = [];
+  menu();
+
+  function menu() {
+    var program = prompt("1.Reateger" + '\n' + "2.Login" + '\n' + "3.Exit");
+    switch (program) {
+      case "3" :
+        alert("Exit");
+        return;
+      case "1":
+        addEnploy();
+        break;
+      case "2":
+        var user = prompt("user name enter: ");
+        var pas = prompt("PassWord Enter: ");
+        var cheick = false ;
+        for (var i = 0; i < lisEmployee.length; i++) {
+
+          if (user === lisEmployee[i].getUssername() && pas === lisEmployee[i].getPassword()) {
+            cheick = true ;
+            alert("Complete");
+           menu2(i);
+          }
+        }
+        if (cheick=true){
+          alert("Nhập lại")
+        }
+      default :
+        menu();
+    }
+  }
+function menu2(e) {
+  var mn2 = prompt("1.Show Infomation" + "\n"+ '2.Lougout'+'\n'+"3.Exit");
+  switch (mn2) {
+    case "1" :
+      displayE(e);
+      menu();
+    case "2" :
+      menu();
+    default:
+     menu();
+  }
+}
+  function displayE(index) {
+    alert("1.Name:  " + lisEmployee[index].getName() + "\n" + "2.Address: " + lisEmployee[index].getAddress() +
+      "\n" + "3.username:  " + lisEmployee[index].getUssername() + "\n" + "4.Passwword:   " + lisEmployee[index].getPassword());
+  }
+
+  function addEnploy() {
+    var employee = new Employee();
+    employee.setName(prompt("Name: "));
+    employee.setAddress(prompt("Adress: "));
+    employee.setUsername(prompt("UserName: "));
+    employee.setPassword(prompt("PassWord: "));
+    lisEmployee.push(employee);
+    menu();
+
+  }
+
+</script>
+</body>
+</html>

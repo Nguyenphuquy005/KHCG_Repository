@@ -1,0 +1,108 @@
+{
+  "employees": [
+    {
+      "fullName": "Lê Văn Bẻo ",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Đã hết bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "123456789",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Đà Nẵng",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "fullName": "Lê Văn Tủm",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Đà Nẵng"
+    },
+    {
+      "id": 3,
+      "fullName": "Lê Văn Tùng",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Đà Nẵng"
+    },
+    {
+      "fullName": "Lê Văn Binh 555",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Huế",
+      "id": 4
+    },
+    {
+      "fullName": "Lê Văn Binh",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "123456789",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Huế",
+      "id": 9
+    },
+    {
+      "fullName": "Lê Văn Binh",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "123456789",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Huế",
+      "id": 10
+    },
+    {
+      "fullName": "Lê Văn Binh",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "125485221",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Huế",
+      "id": 11
+    },
+    {
+      "fullName": "Lê Văn Binh",
+      "position": "Nhân viên",
+      "academicLevel": "Đại học",
+      "part": "Bưa",
+      "dateOfBirth": "25/12/2012",
+      "identityNumber": "125485221",
+      "salary": "8",
+      "email": "beo@gmail.com",
+      "phoneNumber": "0902548452",
+      "address": "Huế",
+      "id": 12
+    }
+  ]
+}

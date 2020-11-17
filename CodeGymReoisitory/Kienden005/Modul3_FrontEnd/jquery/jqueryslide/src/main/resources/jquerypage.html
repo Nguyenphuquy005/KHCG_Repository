@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+
+        $ (function () {
+            var isblock = false ;
+            $("#dropdownMenuLink1").hover(function () {
+                // isblock = !isblock ;
+                // if (isblock){
+                $("#menu1").css({"display":'block'});
+                $("#menu2").css({"display":'none'});
+                $("#menu3").css({"display":'none'});
+                // }else {
+                //     $("#menu1").css({"display":'none'});
+                //     $("#menu2").css({"display":'none'});
+                //     $("#menu3").css({"display":'none'});
+                // }
+            })
+            $("#dropdownMenuLink2").hover(function () {
+                isblock = !isblock ;
+                if (isblock){
+                    $("#menu1").css({"display":'none'});
+                    $("#menu2").css({"display":'block'});
+                    $("#menu3").css({"display":'none'});
+                }else {
+                    $("#menu1").css({"display":'none'});
+                    $("#menu2").css({"display":'none'});
+                    $("#menu3").css({"display":'none'});
+                }
+            })
+            $("#dropdownMenuLink3").hover(function () {
+                isblock = !isblock ;
+                if (isblock){
+                    $("#menu1").css({"display":'none'});
+                    $("#menu2").css({"display":'none'});
+                    $("#menu3").css({"display":'block'});
+                }else {
+                    $("#menu1").css({"display":'none'});
+                    $("#menu2").css({"display":'none'});
+                    $("#menu3").css({"display":'none'});
+                }
+            })
+        })
+
+        $( function() {
+            // run the currently selected effect
+            function runEffect() {
+                // get effect type from
+                var selectedEffect = $( "#effectTypes" ).val();
+
+                // Most effect types need no options passed by default
+                var options = {};
+                // some effects have required parameters
+                if ( selectedEffect === "scale" ) {
+                    options = { percent: 50 };
+                } else if ( selectedEffect === "transfer" ) {
+                    options = { to: "#button", className: "ui-effects-transfer" };
+                } else if ( selectedEffect === "size" ) {
+                    options = { to: { width: 200, height: 60 } };
+                }
+
+                // Run the effect
+                $( "#dropdownMenuLink2" ).effect( selectedEffect, options, 500, callback );
+            };
+
+            // Callback function to bring a hidden box back
+            function callback() {
+                setTimeout(function() {
+                    $( "#dropdownMenuLink2" ).removeAttr( "style" ).hide().fadeIn();
+                }, 1000 );
+            };
+
+            // Set effect from select menu value
+            $( "#dropdownMenuLink2" ).on( "click", function() {
+                runEffect();
+                return false;
+            });
+        } );
+    </script>
+
+
+</head>
+<body>
+<select style="display: none" name="effects" id="effectTypes">
+    <option value="blind">Blind</option>
+    <option value="bounce">Bounce</option>
+    <option  value="clip">Clip</option>
+    <option selected="selected" value="drop">Drop</option>
+    <option value="explode">Explode</option>
+    <option value="fade">Fade</option>
+    <option value="fold">Fold</option>
+    <option value="highlight">Highlight</option>
+    <option value="puff">Puff</option>
+    <option value="pulsate">Pulsate</option>
+    <option value="scale">Scale</option>
+    <option value="shake">Shake</option>
+    <option value="size">Size</option>
+    <option value="slide">Slide</option>
+    <option value="transfer">Transfer</option>
+</select>
+<header class="row" style="background-color: #201818; height: 3em">
+
+    <div class="col-sm-1   "></div>
+    <div class="row; col-sm-6">
+
+        <div style="padding: 0px" class="dropdown show">
+            <a  href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img height="50em" width="50em" src="../img/logo2.png" height="226" width="223"/></a>
+
+            <a  href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img height="50em" width="50em" src="../img/logo2.png" height="226" width="223"/></a>
+            <a  href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img height="50em" width="50em" src="../img/logo2.png" height="226" width="223"/></a>
+        </div>
+        <div class="row; col-sm-6">
+
+        </div>
+    </div>>
+</header>
+<div style="display:none" id="menu1">
+    <div class="container"   style="border: 3px solid black;height: 50em;" >
+        <div style="height: 10em ; border:3px solid blue ;margin-left: -10px ;"></div>
+        <div style="height: 50em ; border:3px solid blue ;margin: 0px  auto"></div>
+    </div>
+
+
+
+</div>
+<div style="display:none" id="menu2"><img src="https://thuthuatnhanh.com/wp-content/uploads/2019/08/hinh-nen-cho-soi-3d-tuyet-dep-cho-android-iphone.jpg" height="519" width="910"/></div>
+</div><div style="display:none" id="menu3"><img src="https://i.ytimg.com/vi/xzMXnOOq5b4/maxresdefault.jpg" height="519" width="910"/></div>
+</body>
+</html>

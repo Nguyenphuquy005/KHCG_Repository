@@ -1,0 +1,48 @@
+
+<div class="text-center"><h3>List Students</h3></div>
+<div class="d-flex justify-content-between p-2">
+<!--  <div><button [routerLink]="['/add-todo']">Thêm Mới</button></div>-->
+  <div>
+    <input [(ngModel)]="term" type="text">
+    <button>search</button></div>
+</div>
+
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">STT</th>
+    <th scope="col">Ma SV</th>
+    <th scope="col">Tên SV</th>
+    <th scope="col">Tên Nhóm</th>
+    <th scope="col">Tên Đề Tài</th>
+    <th scope="col">GV Hướng Dẫn</th>
+    <th scope="col">Email</th>
+    <th scope="col">SĐT</th>
+    <th>Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let todo of todolist |filter:term| paginate: { itemsPerPage: 2, currentPage: p }">
+    <td  scope="row" >{{todo.id }}</td>
+    <td  >{{todo.msv}}</td>
+    <td  >{{todo.name}}</td>
+    <td  >{{todo.group}}</td>
+    <td  >{{todo.dt}}</td>
+    <td  >{{todo.teacher}}</td>
+    <td  >{{todo.email}}</td>
+    <td  >{{todo.phone}}</td>
+
+    <td>
+      <button [routerLink]="['/update-todo/'+todo.id]">Edit</button>
+      <button (click)="delete(todo.id,todo.name)">Delete</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
+    <div *ngIf="isDialog" class="p-3 text-center">
+      <h5>bạn có muốn xóa <span>{{name}}</span></h5>
+      <button (click)="deleteDialod()">Hủy bỏ</button>
+      <button (click)="deleteAction()">Xóa</button>
+    </div>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="n" type="text" oninput="ham()" />
+<input id="x">
+<script>
+  function bt(n) {
+       var n1 = n*n;
+       return n1;
+  }
+  function ham() {
+      var n = document.getElementById("n").value ;
+      var res = bt(n) ;
+      document.getElementById("x").value = res ;
+  }
+</script>
+</body>
+</html>

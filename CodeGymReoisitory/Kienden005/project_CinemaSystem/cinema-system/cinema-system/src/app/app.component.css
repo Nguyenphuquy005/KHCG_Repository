@@ -1,0 +1,27 @@
+
+#logo{
+  border-radius: 10px;
+}
+
+.navbar li a {
+  color: rgb(94, 92, 92) !important;
+  font-size: 15px;
+  
+  margin-right: 20px;
+}
+#nav-bar{
+  margin-bottom: 5px;
+}
+.bg-light{
+  background-color:#f0f0f0 !important;
+}
+.navbar-custome{
+  border-color: bisque;
+  background-color: #ffffff;
+}
+/*#helloAccount{*/
+/* color: black;*/
+/*}*/
+.cunteono{
+  max-width: 1500px;
+}

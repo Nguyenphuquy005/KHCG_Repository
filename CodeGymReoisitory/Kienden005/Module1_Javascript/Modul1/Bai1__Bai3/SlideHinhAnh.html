@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SlideIMG</title>
+  <style>
+  body p {
+
+    };
+  </style>
+</head>
+<body>
+<p>
+  <img onclick="hd1()" id="den1" style="height: 100px;" src="./img/den1.jpg" height="797" width="564"/>
+<!--  <img id="d1" style="height: 100px;display: none;" src="./img/do1.jpg" height="797" width="564"/>-->
+<!--  <img id="x1" style="height: 100px;display: none;" src="./img/xanh1.jpg" height="797" width="564"/>-->
+</p>
+<p>
+  <img onclick="hd2()" id="x2" style="height: 100px;" src="img/xanh2.jpg" height="797" width="564"/>
+
+</p>
+<p>
+  <img onclick="hd3()" id="d1" style="height: 100px;" src="img/do3.jpg" height="797" width="564"/>
+
+</p>
+<script>
+  // var h1 = "den1.jpg";
+  // var h2 = "./img/do1.jpg";
+  function hd1() {
+    if (document.getElementById('den1').src === 'http://localhost:63342/UngDungMayTinh/img/den1.jpg') {
+      document.getElementById('den1').src = 'http://localhost:63342/UngDungMayTinh/img/do1.jpg';
+    } else if (document.getElementById('den1').src === 'http://localhost:63342/UngDungMayTinh/img/do1.jpg') {
+      document.getElementById('den1').src = 'http://localhost:63342/UngDungMayTinh/img/xanh1.jpg';
+    } else {
+      document.getElementById('den1').src = 'http://localhost:63342/UngDungMayTinh/img/den1.jpg';
+    }
+  };
+
+  function hd2() {
+    if (document.getElementById('x2').src === 'http://localhost:63342/UngDungMayTinh/img/xanh2.jpg') {
+      document.getElementById('x2').src = 'http://localhost:63342/UngDungMayTinh/img/do2.jpg';
+    } else if (document.getElementById('x2').src === 'http://localhost:63342/UngDungMayTinh/img/do2.jpg') {
+      document.getElementById('x2').src = 'http://localhost:63342/UngDungMayTinh/img/den2.jpg';
+    } else {
+      document.getElementById('x2').src = 'http://localhost:63342/UngDungMayTinh/img/xanh2.jpg';
+    }
+  };
+
+  function hd3() {
+    if (document.getElementById('d1').src === 'http://localhost:63342/UngDungMayTinh/img/do3.jpg') {
+      document.getElementById('d1').src = 'http://localhost:63342/UngDungMayTinh/img/xanh3.jpg';
+    } else if (document.getElementById('d1').src === 'http://localhost:63342/UngDungMayTinh/img/xanh3.jpg') {
+      document.getElementById('d1').src = 'http://localhost:63342/UngDungMayTinh/img/den3.jpg';
+    } else {
+      document.getElementById('d1').src = 'http://localhost:63342/UngDungMayTinh/img/do3.jpg';
+    }
+  };
+    
+</script>
+</body>
+
+</html>

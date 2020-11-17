@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caculation</title>
+</head>
+<body>
+<table>
+  <tr>
+    <td colspan="5"><input id="result" type="text"/></td>
+  </tr>
+  <tr>
+    <td><input class="btn" type="button" value="7" onclick="Nhap(this.value)"></td>
+    <td><input class="btn" type="button" value="8" onclick="Nhap('8')"></td>
+    <td><input class="btn" type="button" value="9" onclick="result.value+=this.value"></td>
+    <td><input class="btn" type="button" value="/" onclick="Nhap('/')"></td>
+    <td><input class="btn" type="button" value="<--" onclick="trumot()"></td>
+
+  </tr>
+  <tr>
+    <td><input class="btn" type="button" value="4" onclick="result.value+=this.value"></td>
+    <td><input class="btn" type="button" value="5" onclick="result.value+=this.value"></td>
+    <td><input class="btn" type="button" value="6" onclick="result.value+=this.value"></td>
+    <td><input class="btn" type="button" value="*" onclick="Nhap(this.value)"></td>
+    <!-- <td><input class="btn" type="button" value="C" onclick="result.value=''"></td> -->
+    <td><input class="btn" type="button" value="C" onclick="xoa()"></td>
+  </tr>
+  <tr>
+    <td><input class="btn" type="button" value="1" onclick="result.value+=this.value"></td>
+    <td><input class="btn" type="button" value="2" onclick="result.value+=this.value"></td>
+    <td><input class="btn" type="button" value="3" onclick="Nhap(this.value)"></td>
+    <td><input class="btn" type="button" value="+" onclick="Nhap('+')"></td>
+    <td><input class="btn" type="button" value="=" onclick="result.value=eval(result.value)"></td>
+  </tr>
+
+  <td><input class="btn" type="button" value="0" onclick="Kytu(this.value)"></td>
+  <td><input class="btn" type="button" value="." onclick="result.value+=this.value"></td>
+  <td><input class="btn" type="button" value="-" onclick="Nhap('-')"></td>
+  <td><input class="btn" type="button" value="C" onclick="result.value+=this.value"></td>
+  </tr>
+
+</table>
+<script>
+  var result = document.getElementById("result");
+  function Kytu(so) {
+            var  s = so ;
+            result.value += s ;
+  }
+
+  function Nhap(num) {
+    var ab = result.value.charAt(result.value.length -1);
+    var isTH2 = (num === "+" || num === "-" ||num === "*" || num === "/" ) ;
+     var isTH3 = ( ab==="+"  || ab==="-" || ab==="*" || ab==="/");
+    //  if (isTH2 && isTH3 ){
+    //    result.value = result.value ;
+    // } else {
+    //    result.value += num ;
+    // }
+    (isTH2 && isTH3) ? result.value=result.value : result.value+= num ;
+  }
+
+  function trumot() {
+    result.value = result.value.substr(0, result.value.length - 1);
+  }
+  function xoa() {
+    var x = "";
+    result.value = x;
+  }
+
+</script>
+</body>
+</html>

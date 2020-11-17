@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var n= prompt("Nhập: ");
+  hienThiDanhSachSoDauTien(n);
+  function hienThiDanhSachSoDauTien(num) {
+    for (var i = 3, count = 1; count <= num; i+=2) {
+      var flag = true;
+      for (var j = 2; j <= Math.sqrt(i); j++) {
+        if (i % j === 0) {
+          flag = false;
+        }
+      }
+      if (flag === true) {
+        document.write(i + " là số nguyên tố <br/></br>");
+        count++;
+      }
+    }
+  }
+</script>
+</body>
+</html>

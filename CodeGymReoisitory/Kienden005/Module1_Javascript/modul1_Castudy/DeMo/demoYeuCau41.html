@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yeu Cau 4</title>
+</head>
+<body>
+<script>
+    do {
+
+
+        var nhap = prompt("1.Add New Customer" + "\n" +
+            "2.arrNameCustomers");
+        var name = [];
+        switch (nhap) {
+            case "1" :
+                var th1 = prompt("Number Add:   ");
+                for (var i = 0; i < th1; i++) {
+                    var n2 = prompt("Add Name location " + (i + 1));
+                    name += i + 1 + "." + n2 + '\n';
+                }
+                alert(name);
+                break;
+            case "2" :
+                var custommer = ["Huy", "Hùng", "Kiên", "Phúc", "Đức", "Tài", "Lộc", "Kin", "Không", "Min"];
+                var numberDelete = prompt("Number Dlete: " + "\n" + showw(custommer));
+                custommer.splice(numberDelete - 1, 1);
+                alert("List Name After Delete: " + "\n" + showw(custommer));
+
+        }
+
+        function showw(custom) {
+            var customname = "";
+
+            for (var i = 0; i < custom.length; i++) {
+                customname += (i + 1) + "." + custom[i] + "\n";
+            }
+            return customname;
+        }
+    } while (true);
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <script>
+   let MyDate = function(day, month, year) {
+    this.day = day;
+     this.month = month;
+     this.year = year;
+     this.fullDay = function () {
+       return this.day + "/"  + this.month +"/" + this.year ;
+     };
+   };
+   var thang3 = new MyDate(30,12,2019);
+   //var fullthang3 = thang3.fullDay();
+   alert(thang3.fullDay());
+ </script>
+</body>
+</html>

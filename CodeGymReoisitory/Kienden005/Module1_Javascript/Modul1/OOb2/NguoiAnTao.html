@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var Human = function () {
+    this.setWeight = function (human) {
+      this.Weight = human;
+    };
+    this .getWeight = function () {
+        return this.Weight;
+    };
+    this.eat = function (e) {
+      this.Weight++;
+      e.setweight(e.getweight()-1);
+    }
+  };
+  var Apple = function () {
+    this.setweight = function (apple) {
+      this.weight = apple ;
+    };
+    this.getweight = function () {
+      return this.weight;
+    };
+  };
+  var Adam = new Human();
+  Adam.setWeight(70);
+  var Apple = new  Apple();
+  Apple.setweight(5);
+  Adam.eat(Apple);
+  alert(Adam.getWeight() +"\n" + Apple.getweight() );
+</script>
+</body>
+</html>

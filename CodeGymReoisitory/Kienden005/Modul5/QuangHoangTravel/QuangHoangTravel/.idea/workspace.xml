@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="665aad58-906c-46fb-be64-84b7041fe342" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul3/Angular/NewBT_angular/CGDN-Angular-StackBlitz" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul3/Angular/NewBT_angular/CGDN-Angular-StackBlitz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul3/Toan Văn Trường/truongvantoan_CodeGymDN_C1119G1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul3/Toan Văn Trường/truongvantoan_CodeGymDN_C1119G1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul3/typescrip/demo/typescript-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul3/typescrip/demo/typescript-demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul4/Project/cinema-system" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul4/Project/cinema-system" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module_2_JavaCore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_2_JavaCore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module_2_Spring" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module_2_Spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Modul4/sql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Modul4/sql/create.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\CodeGym\Kienden005\Modul5\QuangHoangTravel\QuangHoangTravel\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bQyy76h38tKvNgxr4r7APWyBmo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Modul4/Project/cinema-system/spring-boot" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\Kienden005\Modul5\QuangHoangTravel\QuangHoangTravel\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="665aad58-906c-46fb-be64-84b7041fe342" name="Default Changelist" comment="" />
+      <created>1588578863143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588578863143</updated>
+      <workItem from="1588578870452" duration="4330000" />
+      <workItem from="1588641275041" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588580845579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588580845579" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1588641308859">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588641308859" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588641275231">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588641275231" />
+  </component>
+</project>

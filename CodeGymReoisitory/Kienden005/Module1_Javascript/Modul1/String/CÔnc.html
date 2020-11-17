@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  var V =parseInt( prompt("V Độ cao: "));
+ // parseInt(V);
+  var A = parseInt(prompt("A Lúc Bò: "));
+//  parseInt(A);
+  var B = parseInt(prompt("B Lúc Ngủ"));
+ // parseInt(B);
+  if (A >= V) {
+    alert("Con ốc bò lên ngay");
+  } else if (A < V && B >= A) {
+    alert("con ốc Fail");
+  } else if (A < V && A > B) {
+    var kq = (V - B) / (A - B);
+    if (kq % 1 === 0) {
+      alert(kq);
+    } else {
+      alert(parseInt(kq) + 1);
+    }
+  }
+
+</script>
+</body>
+</html>

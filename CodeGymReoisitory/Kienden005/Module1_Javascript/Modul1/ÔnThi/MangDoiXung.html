@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  var arr = [7,6,5,1,1,5,0,1,5,1,6,7];
+  //var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+  //var arr = [1,1,1,1,1];
+  // var arr=[];
+  // var limit=100000;
+  // for(let i=0;i<limit;i++)
+  // {
+  //     arr.push(Math.floor(Math.random()*5)+1);
+  // }
+  var newArr = [];
+  var n = arr.length;
+  var k = 4;
+  var count = 0;
+  for (let i = 0; i <= n - k;)
+  {
+    for (let j = 0; j < parseInt(k / 2); j++)
+    {
+      if (arr[j + i] == arr[i + k - j - 1])
+      {
+        count++;
+      } else
+      {
+        count = 0;
+        break;
+      }
+    }
+    if (count == parseInt(k / 2))
+    {
+      for (let g = i; g < i + k; g++)
+      {
+        newArr.push(arr[g]);
+      }
+      console.log(newArr);
+      newArr = [];
+    } else count = 0;
+    if (i == n - k)
+    {
+      i = 0;
+      k++;
+    } else i++;
+  }
+</script>
+</body>
+</html>

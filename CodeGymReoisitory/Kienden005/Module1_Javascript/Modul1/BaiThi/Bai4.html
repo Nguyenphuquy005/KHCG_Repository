@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var HocSinh = function (stt,name,brithday,dtb) {
+        this.stt = stt;
+        this.name=name;
+        this.brithday=brithday;
+        this.dtb=dtb;
+       this.cheickThongTin = function() {
+            document.write( "1. Số thứ tự: " + this.stt + "<br>" + "2.Họ và tên:" + this.name +"<br>"+ "3.Brithday: " +
+                    this.brithday + "<br>"+"4.Điểm trung bình: " +"<br>");
+
+        };
+        this.cheickHocLuc = function () {
+            if(this.dtb > 8 ){
+                document.write("Học lực giởi");
+            }else  if (this.dtb >= 6.5){
+                document.write("Học lực Khá");
+            } else if (this.dtb>=5){
+                document.write("Học lực Trung Bình")
+            } else if (this.dtb>=3.5){
+                document.write("Học lực Yếu")
+            } else {document.write("Hoc lực Kém")}
+        }
+    };
+    var Hs = new HocSinh("12","Nguyễn Quang Tèo","25/4/2016",8.5);
+    Hs.cheickThongTin();
+    Hs.cheickHocLuc();
+</script>
+</body>
+</html>

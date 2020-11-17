@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<script>
+  let arr = ["a", 1, 2, 3, "a", 6, 7, 8, "a", 1, 2, 3, "a", 1, 2, 3, 5, 4, 2, 1, 3, 4, "a", 1, 2, 3];
+  let arrTemp = ["a", 1, 2, 3];
+  let count = 0;
+  let check;
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === arrTemp[0]) {
+      check = true;
+      var temp = i;
+      for (var j = 1; j<arrTemp.length; j++) {
+        temp++;
+        // if (temp === arr.length) {
+        //   check = false;
+        //   break;
+        // }
+        if (arr[temp] !== arrTemp[j]) {
+          check = false;
+          break;
+        }
+      }
+      if (check) {
+        count++;
+      }
+    }
+  }
+
+  alert(count);
+</script>
+</body>
+</html>

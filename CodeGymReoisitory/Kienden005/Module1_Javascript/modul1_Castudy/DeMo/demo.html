@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var name = prompt("Name: ");
+    var stn = name.toString();
+
+    var ren = [stn[0].toLocaleUpperCase()];
+
+
+    for (var i = 1; i < stn.length; i++) {
+        if (stn[i - 1] === (" ")) {
+            ren += stn[i].toLocaleUpperCase();
+            continue;
+        }
+        if (stn[i - 1] === " " && stn[i] === " ") {
+            ren += stn.splice(stn[i - 1], stn[i]);
+        }
+
+        ren += stn[i].toLocaleLowerCase();
+    }
+      var c="";
+    for (var i=0 ; i<ren.length;i++){
+        if (ren[i] === " " && ren[i+1] === " " ){
+            continue;
+        }
+        c+=ren[i];
+    }
+    alert(c);
+</script>
+</body>
+</html>

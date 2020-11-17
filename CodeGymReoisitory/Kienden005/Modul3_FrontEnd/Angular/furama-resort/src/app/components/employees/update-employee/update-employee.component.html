@@ -1,0 +1,56 @@
+<h1 class = text-center>Edit EmPloyee</h1>
+<form class="form-group mx-auto w-75" [formGroup]="formEdit">
+  <div class="form-group"><p>1.Họ và tên:</p>
+    <div> <input type="text" class="form-control"  formControlName="fullName"> </div>
+    <p  *ngIf="formEdit.controls.fullName.errors?.required && formEdit.controls.fullName.touched" class="text-danger pt-0">Vui lòng nhập họ tên</p>
+  </div>
+  <div class="form-group"><p>2.Vị trí:</p>
+    <input type="text" class="form-control" formControlName="position" ><br>
+    <p  *ngIf="formEdit.controls.position.errors?.required && formEdit.controls.position.touched" class="text-danger pt-0">Vui lòng nhập </p>
+  </div>
+  <div class="form-group"><p>3.Trình Độ:</p>
+    <input type="text" class="form-control" formControlName="academicLevel"><br>
+    <p  *ngIf="formEdit.controls.academicLevel.errors?.required && formEdit.controls.academicLevel.touched" class="text-danger pt-0">Vui lòng nhập </p>
+  </div>
+  <div class="form-group"><p>4.Bộ phận: </p>
+    <input type="text" class="form-control" formControlName="part">
+    <p  *ngIf="formEdit.controls.part.errors?.required && formEdit.controls.part.touched" class="text-danger pt-0">Vui lòng nhập </p>
+  </div>
+  <div class="form-group"><p>5.Ngày sinh: </p>
+    <input [max]="maxday" [min]="minday" type="date" class="form-control" formControlName="dateOfBirth" >
+    <p  *ngIf="formEdit.controls.dateOfBirth.errors?.required && formEdit.controls.dateOfBirth.touched" class="text-danger pt-0">Vui lòng nhập </p>
+  </div>
+  <div class="form-group"><p>6.CMND </p>
+    <input type="text" class="form-control" formControlName="identityNumber" >
+    <p  *ngIf="formEdit.controls.identityNumber.errors?.required && formEdit.controls.identityNumber.touched" class="text-danger pt-0">Vui lòng nhập CMND </p>
+    <p  *ngIf="formEdit.controls.identityNumber.errors?.pattern && formEdit.controls.identityNumber.touched" class="text-danger pt-0">CMND sai định dạng</p>
+  </div>
+  <div class="form-group"><p>7.Lương: </p>
+    <input type="text"class="form-control" formControlName="salary">
+    <p  *ngIf="formEdit.controls.salary.errors?.required && formEdit.controls.salary.touched" class="text-danger pt-0">Vui lòng nhập Lương </p>
+    <p  *ngIf="formEdit.controls.salary.errors?.pattern && formEdit.controls.salary.touched" class="text-danger pt-0">Sai Định dạng </p>
+  </div>
+  <div class="fa-heart"><p>8.Email: </p>
+    <input type="text" class="form-control" formControlName="email" >
+    <p  *ngIf="formEdit.controls.email.errors?.required && formEdit.controls.email.touched" class="text-danger pt-0">Vui lòng nhập Email </p>
+    <p  *ngIf="formEdit.controls.email.errors?.email && formEdit.controls.email.touched" class="text-danger pt-0">Email không đúng định dạng</p>
+
+  </div>
+  <div class="form-group"><p>9.Số Điện thoại:</p>
+    <input type="text" class="form-control" formControlName="phoneNumber" >
+    <p  *ngIf="formEdit.controls.phoneNumber.errors?.required && formEdit.controls.phoneNumber.touched" class="text-danger pt-0">Vui lòng nhập SDT </p>
+    <p  *ngIf="formEdit.controls.phoneNumber.errors?.pattern && formEdit.controls.phoneNumber.touched" class="text-danger pt-0">Vui lòng nhập SDT </p>
+  </div>
+  <div class="form-group"><p>10.Địa chỉ:</p>
+    <input type="text"  class="form-control" formControlName="address">
+    <p  *ngIf="formEdit.controls.address.errors?.required && formEdit.controls.address.touched" class="text-danger pt-0">Vui lòng nhập </p>
+
+  </div>
+  <button [disabled]="formEdit.invalid" (click)="onEditEmployee()"   class="btn btn-dark" type="button">Add New Employee</button>
+</form>
+<script>
+  $( function() {
+    $( "#dialog" ).dialog();
+  } );
+</script>
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var arr = [9, 6, 5, 9,6,102354354354654, 5, 1, 4,10, 6, 8];
+    finalMaxScore(arr);
+    function finalMaxScore(arr) {
+        var max = arr[0];
+        var vt = 0 ;
+        for (var i = arr.length; i > 0; i--) {
+            if (max < arr[i]) {
+                max = arr[i];
+                vt =i;
+            }
+        }
+        alert( "Điểm cao nhất của mảng là " + max + "\n" + " VT: " + vt);
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+div{
+  padding: 20px 5px 5px 5px;
+  border-radius: 0 5px 0 0
+}
+header{
+  border-right: 1px solid blue;
+  height: 37.5em;
+  border-radius: 5px
+}
+header a{
+  color: black;
+  text-decoration: none;
+}header a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+header div:active{
+  border: 1px solid blue;
+  background: grey;
+}

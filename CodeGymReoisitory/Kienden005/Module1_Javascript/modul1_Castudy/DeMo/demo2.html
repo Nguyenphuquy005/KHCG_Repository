@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    do {
+        var email = prompt(" Nhập Email: ");
+    } while (!cheickEmail(email));
+
+    function cheickEmail(e) {
+        if (e[0] === "@") {
+            return false;
+        }
+        for (var i = 1; i < e.length; i++) {
+            if (e[i] === "@") {
+                for (var j = 2; j < i; j++) {
+                    if (e[j] === "@") {
+                        return false;
+                    }
+                }
+            }
+        }
+        for (var i = 0; i < e.length; i++) {
+            if (e[i] === "^" || e[i] === " ") {
+                return false;
+            }
+        }
+        for (var i = 0; i < e.length; i++) {
+          //  var isCham = false ;
+            if ( e.indexOf(".") === -1  ) {
+                return  false ;
+            }
+
+        }
+
+        return true;
+    }
+
+    alert(email);
+</script>
+
+
+</body>
+</html>

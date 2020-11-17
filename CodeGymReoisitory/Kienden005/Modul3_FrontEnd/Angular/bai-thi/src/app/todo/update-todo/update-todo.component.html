@@ -1,0 +1,44 @@
+<h1 class = text-center>Update Infomation Student</h1>
+<form class="form-group mx-auto w-75" action="" [formGroup]="formUpdateTodo">
+  <div style="display: none" class="form-group">
+    <p >2.MSV: </p>
+    <input formControlName="msv">
+  </div>
+  <div class="form-group">
+    <p >1.Tên sinh viên: </p>
+    <input formControlName="name">
+    <p *ngIf="formUpdateTodo.controls.name.errors?.required && formUpdateTodo.controls.name.touched">Vui lòng nhập tên</p>
+    <p *ngIf="formUpdateTodo.controls.name.errors?.pattern && formUpdateTodo.controls.name.touched">Không chứa Ký tự đặc biệt</p>
+  </div>
+  <div class="form-group">
+    <p >2.Nhóm:  </p>
+    <input formControlName="group">
+    <p *ngIf="formUpdateTodo.controls.group.errors?.required && formUpdateTodo.controls.group.touched">Vui lòng nhập Tên Nhóm</p>
+    <p *ngIf="formUpdateTodo.controls.group.errors?.pattern && formUpdateTodo.controls.group.touched">nhập (Nhóm 1) (Nhóm 2) hoặc (Nhóm 3)</p>
+  </div> <div class="form-group">
+    <p >3.Tên Đề Tài:  </p>
+    <input formControlName="dt">
+    <p *ngIf="formUpdateTodo.controls.dt.errors?.required && formUpdateTodo.controls.dt.touched">Vui lòng nhập Tên đề tài </p>
+  </div>
+  <div>
+  <p >4.Tên gvhd:  </p>
+    <select [(ngModel)]="gvht">
+      <option selected="selected" value="Lê Văn A">Lê Văn A</option>
+      <option value="Lê Văn B">Lê Văn B</option>
+      <option value="Lê Văn C">Lê Văn C</option>
+    </select>
+  </div>
+  <div>
+  <p >5.Email:  </p>
+    <input formControlName="email">
+    <p *ngIf="formUpdateTodo.controls.email.errors?.required && formUpdateTodo.controls.email.touched">Vui lòng nhập Email </p>
+    <p *ngIf="formUpdateTodo.controls.email.errors?.email && formUpdateTodo.controls.email.touched">Email Sai định dạng </p>
+  </div>
+  <div>
+  <p >6.Phone:  </p>
+    <input formControlName="phone">
+    <p *ngIf="formUpdateTodo.controls.phone.errors?.required && formUpdateTodo.controls.phone.touched">Vui lòng nhập SDT </p>
+    <p *ngIf="formUpdateTodo.controls.phone.errors?.pattern && formUpdateTodo.controls.phone.touched">SDT phải từ 10-12 số </p>
+  </div>
+  <button [disabled]="formUpdateTodo.invalid" (click)="editTodo()"   class="btn btn-dark" type="button">Edit Inffomation Student</button>
+</form>
